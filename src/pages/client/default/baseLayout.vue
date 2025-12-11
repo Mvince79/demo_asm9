@@ -7,7 +7,7 @@ import "../../../style.css";
 <template>
   <div class="layout-wrapper">
     <Header></Header>
-    <main class="container">
+    <main class="container py-5">
       <RouterView></RouterView>
     </main>
     <Footer class="footer_client_custom"></Footer>

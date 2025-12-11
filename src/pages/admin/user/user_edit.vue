@@ -1,53 +1,58 @@
 <template>
-  <body class="bg-light">
-    <div
-      class="container-fluid admin-inner-content mt-4"
-      style="margin-left: -0.5%; max-width: 600px"
-    >
-      <h3>Sửa người dùng</h3>
-      <form id="editUserForm">
-        <input type="hidden" id="editUserId" />
+  <div class="container p-4">
+    <h3 class="fw-bold mb-4">Sửa người dùng</h3>
 
-        <div class="mb-3">
-          <label class="form-label">Họ tên</label>
-          <input id="editUserName" type="text" class="form-control" required />
-        </div>
+    <div class="card shadow-sm p-4 rounded-4">
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Họ tên</label>
+        <input
+          type="text"
+          v-model="form.name"
+          class="form-control form-control-lg"
+        />
+      </div>
 
-        <div class="mb-3">
-          <label class="form-label">Email</label>
-          <input
-            id="editUserEmail"
-            type="email"
-            class="form-control"
-            required
-          />
-        </div>
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Email</label>
+        <input
+          type="email"
+          v-model="form.email"
+          class="form-control form-control-lg"
+        />
+      </div>
 
-        <div class="mb-3">
-          <label class="form-label">Số điện thoại</label>
-          <input id="editUserPhone" type="text" class="form-control" />
-        </div>
+      <div class="mb-3">
+        <label class="form-label fw-semibold">SĐT</label>
+        <input
+          type="text"
+          v-model="form.phone"
+          class="form-control form-control-lg"
+        />
+      </div>
 
-        <div class="mb-3">
-          <label class="form-label">Mật khẩu</label>
-          <input
-            id="editUserPassword"
-            type="password"
-            class="form-control"
-            required
-          />
-        </div>
-
-        <div class="mb-3">
-          <label class="form-label">Vai trò</label>
-          <select id="editUserRole" class="form-select">
-            <option value="0">Khách hàng</option>
-            <option value="1">Admin</option>
-          </select>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Cập nhật</button>
-      </form>
+      <button class="btn btn-primary btn-lg" @click="submit">Cập nhật</button>
     </div>
-  </body>
+  </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { useRoute, useRouter } from "vue-router";
+import { User } from "../../../services/user.service";
+
+const route = useRoute();
+const router = useRouter();
+const service = new User();
+const form = ref({});
+
+onMounted(async () => {
+  const res = await service.get(route.params.id);
+  form.value = res.data;
+});
+
+const submit = async () => {
+  await service.update(route.params.id, form.value);
+  alert("Đã cập nhật!");
+  router.push("/user_list");
+};
+</script>

@@ -1,48 +1,36 @@
 <template>
-  <body class="bg-light">
-    <div
-      class="container-fluid admin-inner-content mt-4"
-      style="margin-left: -0.5%; max-width: 600px"
-    >
-      <h3>Thêm danh mục</h3>
-      <form id="createCategoryForm">
-        <div class="mb-3">
-          <label class="form-label">Tên danh mục</label>
-          <input id="categoryName" type="text" class="form-control" required />
-        </div>
+  <div class="container p-4">
+    <h3 class="fw-bold mb-4">Thêm danh mục</h3>
 
-        <div class="mb-3">
-          <label class="form-label">Mô tả</label>
-          <textarea
-            id="categoryDescription"
-            class="form-control"
-            rows="3"
-          ></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-success">Thêm</button>
-      </form>
-    </div>
-
-    <!-- Toast -->
-    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1055">
-      <div
-        id="liveToast"
-        class="toast align-items-center text-white border-0 shadow-lg"
-        role="alert"
-      >
-        <div class="d-flex">
-          <div class="toast-body">
-            <strong id="toastTitle"></strong><br />
-            <span id="toastBody"></span>
-          </div>
-          <button
-            type="button"
-            class="btn-close btn-close-white me-2 m-auto"
-            data-bs-dismiss="toast"
-          ></button>
-        </div>
+    <div class="card shadow-sm p-4 rounded-4">
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Tên danh mục</label>
+        <input
+          type="text"
+          class="form-control form-control-lg"
+          v-model="form.name"
+        />
       </div>
+
+      <button @click="submit" class="btn btn-success btn-lg rounded-3">
+        Lưu
+      </button>
     </div>
-  </body>
+  </div>
 </template>
+
+<script setup>
+import { ref } from "vue";
+import { useRouter } from "vue-router";
+import { Category } from "../../../services/category.service";
+
+const form = ref({ name: "" });
+const router = useRouter();
+const service = new Category();
+
+const submit = async () => {
+  await service.create(form.value);
+  alert("Đã thêm!");
+  router.push("/category_list");
+};
+</script>

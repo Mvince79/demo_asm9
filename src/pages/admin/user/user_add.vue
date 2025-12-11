@@ -1,46 +1,52 @@
 <template>
-  <body class="bg-light">
-    <div
-      class="container-fluid admin-inner-content mt-4"
-      style="margin-left: -0.5%; max-width: 600px"
-    >
-      <h3>Thêm người dùng</h3>
-      <form id="createUserForm">
-        <div class="mb-3">
-          <label class="form-label">Họ tên</label>
-          <input id="userName" type="text" class="form-control" required />
-        </div>
+  <div class="container p-4">
+    <h3 class="fw-bold mb-4">Thêm người dùng</h3>
 
-        <div class="mb-3">
-          <label class="form-label">Email</label>
-          <input id="userEmail" type="email" class="form-control" required />
-        </div>
+    <div class="card shadow-sm p-4 rounded-4">
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Họ tên</label>
+        <input
+          type="text"
+          v-model="form.name"
+          class="form-control form-control-lg"
+        />
+      </div>
 
-        <div class="mb-3">
-          <label class="form-label">Số điện thoại</label>
-          <input id="userPhone" type="text" class="form-control" />
-        </div>
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Email</label>
+        <input
+          type="email"
+          v-model="form.email"
+          class="form-control form-control-lg"
+        />
+      </div>
 
-        <div class="mb-3">
-          <label class="form-label">Mật khẩu</label>
-          <input
-            id="userPassword"
-            type="password"
-            class="form-control"
-            required
-          />
-        </div>
+      <div class="mb-3">
+        <label class="form-label fw-semibold">SĐT</label>
+        <input
+          type="text"
+          v-model="form.phone"
+          class="form-control form-control-lg"
+        />
+      </div>
 
-        <div class="mb-3">
-          <label class="form-label">Vai trò</label>
-          <select id="userRole" class="form-select">
-            <option value="0">Khách hàng</option>
-            <option value="1">Admin</option>
-          </select>
-        </div>
-
-        <button type="submit" class="btn btn-success">Thêm</button>
-      </form>
+      <button class="btn btn-success btn-lg" @click="submit">Lưu</button>
     </div>
-  </body>
+  </div>
 </template>
+
+<script setup>
+import { ref } from "vue";
+import { useRouter } from "vue-router";
+import { User } from "../../../services/user.service";
+
+const form = ref({ name: "", email: "", phone: "" });
+const router = useRouter();
+const service = new User();
+
+const submit = async () => {
+  await service.create(form.value);
+  alert("Đã thêm!");
+  router.push("/user_list");
+};
+</script>

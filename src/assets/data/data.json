@@ -1,0 +1,265 @@
+{
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Rèm cuốn thông minh"
+    },
+    {
+      "id": "c2",
+      "name": "Rèm chống nắng tự động"
+    },
+    {
+      "id": "c3",
+      "name": "Rèm điều khiển từ xa"
+    },
+    {
+      "id": "c4",
+      "name": "Phụ kiện rèm thông minh"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Rèm cuốn thông minh SmartRoll",
+      "base_price": 1500000,
+      "description": "Rèm cuốn SmartRoll điều khiển app, cảm biến ánh sáng tự động điều chỉnh.",
+      "images": [
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765419420/products/jk9mfvp7wpnq67nahbt0.png",
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765419422/products/lgkb6y81g6qifp6rgkje.png"
+      ],
+      "category_id": "c1",
+      "variants": [
+        {
+          "id": "v1",
+          "name": "Size 1m x 1.5m",
+          "extra_price": 0,
+          "stock": 20
+        },
+        {
+          "id": "v2",
+          "name": "Size 1.2m x 2m",
+          "extra_price": 200000,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "Rèm cuốn thông minh EcoRoll",
+      "base_price": 1300000,
+      "description": "Rèm cuốn tiết kiệm điện, cảm biến ánh sáng tự động.",
+      "images": [
+        "https://res.cloudinary.com/demo/ecoroll.jpg"
+      ],
+      "category_id": "c1",
+      "variants": [
+        {
+          "id": "v8",
+          "name": "Size 0.8m x 1.5m",
+          "extra_price": 0,
+          "stock": 25
+        },
+        {
+          "id": "v9",
+          "name": "Size 1m x 2m",
+          "extra_price": 150000,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Rèm chống nắng AutoShade",
+      "base_price": 1800000,
+      "description": "Rèm tự động chống nắng 3 lớp, cảm biến nhiệt độ.",
+      "images": [
+        "https://res.cloudinary.com/demo/autoshade1.jpg"
+      ],
+      "category_id": "c2",
+      "variants": [
+        {
+          "id": "v3",
+          "name": "Bản tiêu chuẩn",
+          "extra_price": 0,
+          "stock": 14
+        },
+        {
+          "id": "v4",
+          "name": "Chất liệu cao cấp",
+          "extra_price": 300000,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "Rèm chống nắng SunBlocker",
+      "base_price": 2000000,
+      "description": "Rèm tự động chống nắng 4 lớp, chống tia UV.",
+      "images": [
+        "https://res.cloudinary.com/demo/sunblocker.jpg"
+      ],
+      "category_id": "c2",
+      "variants": [
+        {
+          "id": "v10",
+          "name": "Size 1.5m x 2m",
+          "extra_price": 0,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Rèm điều khiển từ xa RemoteCurtain",
+      "base_price": 2200000,
+      "description": "Rèm đóng mở bằng remote và app, động cơ êm, bền.",
+      "images": [
+        "https://res.cloudinary.com/demo/remote1.jpg"
+      ],
+      "category_id": "c3",
+      "variants": [
+        {
+          "id": "v5",
+          "name": "Bản tiêu chuẩn",
+          "extra_price": 0,
+          "stock": 15
+        },
+        {
+          "id": "v6",
+          "name": "Bản cao cấp (động cơ êm hơn)",
+          "extra_price": 500000,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "name": "Rèm điều khiển từ xa SilentCurtain",
+      "base_price": 2500000,
+      "description": "Động cơ siêu êm, hỗ trợ app và remote, bảo hành 3 năm.",
+      "images": [
+        "https://res.cloudinary.com/demo/silentcurtain.jpg"
+      ],
+      "category_id": "c3",
+      "variants": [
+        {
+          "id": "v11",
+          "name": "Size 1.2m x 2m",
+          "extra_price": 0,
+          "stock": 12
+        },
+        {
+          "id": "v12",
+          "name": "Size 1.5m x 2.5m",
+          "extra_price": 600000,
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Phụ kiện rèm thông minh",
+      "base_price": 500000,
+      "description": "Các phụ kiện bổ sung cho rèm thông minh.",
+      "images": [],
+      "category_id": "c4",
+      "variants": [
+        {
+          "id": "v7",
+          "name": "Phụ kiện cơ bản",
+          "extra_price": 0,
+          "stock": 50
+        },
+        {
+          "id": "v13",
+          "name": "Bộ điều khiển bổ sung",
+          "extra_price": 250000,
+          "stock": 20
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Nguyễn Hoàng Khang",
+      "email": "khang@example.com",
+      "phone": "0901234567",
+      "role": "admin",
+      "password": "123456"
+    },
+    {
+      "id": "u2",
+      "name": "Nguyễn Văn A",
+      "email": "vana@example.com",
+      "phone": "0912345678",
+      "role": "customer",
+      "password": "123456"
+    },
+    {
+      "id": "u3",
+      "name": "Trần Thị B",
+      "email": "tb@example.com",
+      "phone": "0923456789",
+      "role": "customer",
+      "password": "123456"
+    },
+    {
+      "id": "e4e0",
+      "name": "a",
+      "email": "a@gmail.com",
+      "phone": ""
+    }
+  ],
+  "cart_items": [
+    {
+      "id": "ci1",
+      "user_id": "u1",
+      "product_id": "p1",
+      "variant_id": "v1",
+      "quantity": 1
+    },
+    {
+      "id": "ci2",
+      "user_id": "u1",
+      "product_id": "p2",
+      "variant_id": "v3",
+      "quantity": 2
+    },
+    {
+      "id": "ci3",
+      "user_id": "u3",
+      "product_id": "p7",
+      "variant_id": "v12",
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "o1",
+      "user_id": "u1",
+      "total_price": 6200000,
+      "status": "completed",
+      "created_at": "2025-12-10 14:32:00"
+    }
+  ],
+  "order_items": [
+    {
+      "id": "oi1",
+      "order_id": "o1",
+      "product_id": "p1",
+      "variant_id": "v2",
+      "quantity": 1,
+      "price": 1700000
+    },
+    {
+      "id": "oi2",
+      "order_id": "o1",
+      "product_id": "p3",
+      "variant_id": "v6",
+      "quantity": 2,
+      "price": 2700000
+    }
+  ]
+}

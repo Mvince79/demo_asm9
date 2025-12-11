@@ -1,22 +1,65 @@
 <template>
-  <div class="container-fluid admin-inner-content mt-4">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <h3 class="fw-bold">Danh sách danh mục</h3>
-      <a href="#/category_add" class="btn btn-success">+ Thêm danh mục</a>
+  <div class="p-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="fw-bold">Danh mục sản phẩm</h3>
+      <router-link
+        to="/category_add"
+        class="btn btn-success btn-lg rounded-3 px-4"
+      >
+        <i class="bi bi-plus-lg me-2"></i> Thêm danh mục
+      </router-link>
     </div>
 
-    <div class="table-responsive">
-      <table class="table table-bordered table-hover align-middle text-center">
-        <thead class="table-dark">
+    <div class="table-responsive shadow-sm rounded-4 bg-white p-3 border">
+      <table class="table table-hover align-middle">
+        <thead class="table-light">
           <tr>
-            <th>#</th>
+            <th>ID</th>
             <th>Tên danh mục</th>
-            <th>Mô tả</th>
-            <th>Hành động</th>
+            <th class="text-center">Thao tác</th>
           </tr>
         </thead>
-        <tbody id="category-list"></tbody>
+        <tbody>
+          <tr v-for="item in list" :key="item.id">
+            <td>{{ item.id }}</td>
+            <td class="fw-semibold">{{ item.name }}</td>
+            <td class="text-center">
+              <router-link
+                :to="`/category_edit/${item.id}`"
+                class="btn btn-primary btn-sm rounded-3 me-2"
+              >
+                <i class="bi bi-pencil-square"></i>
+              </router-link>
+              <button
+                @click="remove(item.id)"
+                class="btn btn-danger btn-sm rounded-3"
+              >
+                <i class="bi bi-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { Category } from "../../../services/category.service";
+
+const service = new Category();
+const list = ref([]);
+
+onMounted(async () => {
+  const res = await service.list();
+  list.value = res.data || [];
+});
+
+const remove = async (id) => {
+  if (!confirm("Xóa danh mục này?")) return;
+  await service.delete(id);
+  list.value = list.value.filter((x) => x.id !== id);
+  alert("Đã xóa");
+};
+</script>

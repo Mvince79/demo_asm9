@@ -1,55 +1,43 @@
 <template>
-  <body class="bg-light">
-    <div
-      class="container-fluid admin-inner-content mt-4"
-      style="margin-left: -0.5%; max-width: 600px"
-    >
-      <h3>Sửa danh mục</h3>
-      <form id="editCategoryForm">
-        <input type="hidden" id="editCategoryId" />
+  <div class="container p-4">
+    <h3 class="fw-bold mb-4">Sửa danh mục</h3>
 
-        <div class="mb-3">
-          <label class="form-label">Tên danh mục</label>
-          <input
-            id="editCategoryName"
-            type="text"
-            class="form-control"
-            required
-          />
-        </div>
-
-        <div class="mb-3">
-          <label class="form-label">Mô tả</label>
-          <textarea
-            id="editCategoryDescription"
-            class="form-control"
-            rows="3"
-          ></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Cập nhật</button>
-      </form>
-    </div>
-
-    <!-- Toast -->
-    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1055">
-      <div
-        id="liveToast"
-        class="toast align-items-center text-white border-0 shadow-lg"
-        role="alert"
-      >
-        <div class="d-flex">
-          <div class="toast-body">
-            <strong id="toastTitle"></strong><br />
-            <span id="toastBody"></span>
-          </div>
-          <button
-            type="button"
-            class="btn-close btn-close-white me-2 m-auto"
-            data-bs-dismiss="toast"
-          ></button>
-        </div>
+    <div class="card shadow-sm p-4 rounded-4">
+      <div class="mb-3">
+        <label class="form-label fw-semibold">Tên danh mục</label>
+        <input
+          type="text"
+          class="form-control form-control-lg"
+          v-model="form.name"
+        />
       </div>
+
+      <button @click="submit" class="btn btn-primary btn-lg rounded-3">
+        Cập nhật
+      </button>
     </div>
-  </body>
+  </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+import { useRoute, useRouter } from "vue-router";
+import { Category } from "../../../services/category.service";
+
+const service = new Category();
+const route = useRoute();
+const router = useRouter();
+
+const form = ref({ name: "" });
+
+onMounted(async () => {
+  const res = await service.get(route.params.id);
+  form.value = res.data;
+});
+
+const submit = async () => {
+  await service.update(route.params.id, form.value);
+  alert("Đã cập nhật!");
+  router.push("/category_list");
+};
+</script>

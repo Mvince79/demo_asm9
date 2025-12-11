@@ -4,7 +4,7 @@
     style="width: 250px; height: 100vh; position: fixed"
   >
     <div class="text-center p-3">
-      <a href="/admin_index.html">
+      <a href="/admin">
         <img
           src="/asset/logo.svg"
           alt="Smart Blinds Logo"
@@ -14,9 +14,9 @@
       </a>
     </div>
 
-    <a href="#" class="d-block py-2 px-3 text-white"
-      ><i class="bi bi-speedometer2"></i> Tổng quan</a
-    >
+    <router-link to="/admin" class="d-block py-2 px-3 text-white">
+      <i class="bi bi-speedometer2"></i> Tổng quan
+    </router-link>
 
     <!-- Products -->
     <a
@@ -85,7 +85,11 @@
             >Danh sách bài viết</router-link
           >
         </li>
-        <li><router-link to="blog_add" class="text-white d-block py-1">Thêm bài viết</router-link></li>
+        <li>
+          <router-link to="blog_add" class="text-white d-block py-1"
+            >Thêm bài viết</router-link
+          >
+        </li>
       </ul>
     </div>
 
@@ -149,7 +153,11 @@
     </a>
     <div class="collapse" id="menuStatistics">
       <ul class="list-unstyled ps-4">
-        <li><router-link to="" class="text-white d-block py-1">Doanh thu</router-link></li>
+        <li>
+          <router-link to="" class="text-white d-block py-1"
+            >Doanh thu</router-link
+          >
+        </li>
       </ul>
     </div>
   </div>
