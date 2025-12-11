@@ -26,7 +26,7 @@
       "id": "p1",
       "name": "Rèm cuốn SmartRoll Pro",
       "base_price": 1500000,
-      "description": "Rèm cuốn SmartRoll Pro điều khiển app, cảm biến ánh sáng tự động, chống bụi, dễ vệ sinh.",
+      "description": "Rèm vải cao cấp có thể điều khiển đóng/mở qua remote hoặc ứng dụng điện thoại. Với cảm biến ánh sáng tích hợp, rèm tự động điều chỉnh để giữ nhiệt độ phòng ổn định, tiết kiệm điện năng. Thiết kế hiện đại, dễ lắp đặt, phù hợp với mọi không gian sống.",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif",
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162533/bsl5.1_c3ndu2.avif",
@@ -58,7 +58,7 @@
       "id": "p2",
       "name": "Rèm cuốn EcoRoll",
       "base_price": 1300000,
-      "description": "Rèm cuốn EcoRoll tiết kiệm điện, cảm biến ánh sáng, dễ lắp đặt.",
+      "description": "Rèm cuốn mỏng nhẹ, tích hợp động cơ êm ái, có thể hẹn giờ hoặc lập trình mở/đóng theo nhu cầu. Chất liệu chống nắng UV, bảo vệ đồ nội thất khỏi phai màu. Hoạt động êm, không gây tiếng ồn, tạo không gian yên tĩnh và sang trọng.",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif",
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif"
@@ -83,7 +83,7 @@
       "id": "p3",
       "name": "Rèm chống nắng AutoShade",
       "base_price": 1800000,
-      "description": "Rèm tự động chống nắng 3 lớp, cảm biến nhiệt độ, bảo vệ nội thất.",
+      "description": "Rèm vải cao cấp có thể kết nối với các hệ thống nhà thông minh như Google Home, Alexa, Apple HomeKit. Chỉ cần giọng nói hoặc ứng dụng điện thoại là bạn có thể điều khiển rèm dễ dàng. Thiết kế đa dạng màu sắc, mang đến phong cách hiện đại cho căn phòng.",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl4.1_dbspga.avif",
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif"
@@ -108,7 +108,7 @@
       "id": "p4",
       "name": "Rèm chống nắng SunBlocker",
       "base_price": 2000000,
-      "description": "Rèm tự động chống nắng 4 lớp, chống tia UV, động cơ êm.",
+      "description": "Rèm thông minh được trang bị cảm biến ánh sáng, tự động đóng lại khi ánh nắng quá mạnh và mở ra khi trời mát. Chất liệu vải cao cấp, chống bụi, dễ vệ sinh. Hoạt động êm, giúp bảo vệ mắt và nâng cao trải nghiệm sống tiện nghi.",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif"
       ],
@@ -126,7 +126,7 @@
       "id": "p5",
       "name": "Rèm điều khiển RemoteCurtain",
       "base_price": 2200000,
-      "description": "Đóng mở bằng remote và app, động cơ êm, bền, bảo hành 2 năm.",
+      "description": "Rèm cửa kết hợp pin năng lượng mặt trời, tự động sạc và vận hành mà không cần kết nối điện trực tiếp. Có thể lập trình thời gian đóng/mở, giúp tiết kiệm năng lượng tối đa. Chất liệu vải cao cấp, chống nắng, chống ồn, mang đến không gian sống hiện đại và thân thiện môi trường.",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162451/F%C3%96NSTERBLAD5_fz7p33.avif",
         "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765168917/1-1-1-1-1_qqwhr5.png"
@@ -176,7 +176,7 @@
       "id": "p7",
       "name": "Phụ kiện rèm thông minh",
       "base_price": 500000,
-      "description": "Các phụ kiện bổ sung, bao gồm bộ điều khiển và lắp đặt nhanh.",
+      "description": "Rèm vải dày cao cấp tích hợp lớp cách âm, giúp giảm tiếng ồn từ bên ngoài. Tự động đóng/mở theo lịch trình, vừa tiện lợi vừa tạo không gian yên tĩnh cho phòng ngủ hoặc phòng làm việc.",
       "images": [
         "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169334/32_g7snsr.jpg"
       ],
@@ -200,7 +200,7 @@
       "id": "p8",
       "name": "Rèm văn phòng SmartOffice",
       "base_price": 1800000,
-      "description": "Rèm thông minh cho văn phòng, tự động đóng mở theo lịch, tiết kiệm điện.",
+      "description": "Chỉ cần vẫy tay hoặc chạm nhẹ, rèm sẽ tự động mở hoặc đóng. Thiết kế hiện đại, phù hợp với các gia đình có trẻ nhỏ hoặc người lớn tuổi, mang lại sự tiện nghi tối đa.",
       "images": [
         "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169185/1.2.3_bebndc.jpg"
       ],
@@ -313,13 +313,6 @@
   ],
   "cart_items": [
     {
-      "id": "ci1",
-      "user_id": "u1",
-      "product_id": "p1",
-      "variant_id": "v1",
-      "quantity": 1
-    },
-    {
       "quantity": 1,
       "id": "ci2"
     },
@@ -328,13 +321,6 @@
       "user_id": "u3",
       "product_id": "p7",
       "variant_id": "v12",
-      "quantity": 1
-    },
-    {
-      "id": "b71c",
-      "user_id": "u1",
-      "product_id": "p5",
-      "variant_id": "v9",
       "quantity": 1
     }
   ],
