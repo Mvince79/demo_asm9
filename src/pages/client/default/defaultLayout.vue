@@ -6,6 +6,10 @@ import Usps from "../../../components/Usps.vue";
 import Newsletter from "../../../components/Newsletter.vue";
 import Video from "../../../components/Video.vue";
 import App_control from "../../../components/App_control.vue";
+import HomeCTA from "../../../components/HomeCTA.vue";
+import HomeBlog from "../../../components/HomeBlog.vue";
+import HomeTestimonials from "../../../components/HomeTestimonials.vue";
+import HomeFAQ from "../../../components/HomeFAQ.vue";
 import "../../../style.css";
 </script>
 
@@ -13,9 +17,13 @@ import "../../../style.css";
   <Header></Header>
   <div>
     <Banner></Banner>
+    <Video></Video>
     <Usps></Usps>
     <RouterView></RouterView>
-    <Video></Video>
+    <HomeCTA></HomeCTA>
+    <HomeBlog></HomeBlog>
+    <HomeTestimonials></HomeTestimonials>
+    <HomeFAQ></HomeFAQ>
     <App_control></App_control>
     <Newsletter></Newsletter>
   </div>

@@ -15,17 +15,22 @@
     {
       "id": "c4",
       "name": "Phụ kiện rèm thông minh"
+    },
+    {
+      "id": "c5",
+      "name": "Rèm thông minh văn phòng"
     }
   ],
   "products": [
     {
       "id": "p1",
-      "name": "Rèm cuốn thông minh SmartRoll",
+      "name": "Rèm cuốn SmartRoll Pro",
       "base_price": 1500000,
-      "description": "Rèm cuốn SmartRoll điều khiển app, cảm biến ánh sáng tự động điều chỉnh.",
+      "description": "Rèm cuốn SmartRoll Pro điều khiển app, cảm biến ánh sáng tự động, chống bụi, dễ vệ sinh.",
       "images": [
-        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765419420/products/jk9mfvp7wpnq67nahbt0.png",
-        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765419422/products/lgkb6y81g6qifp6rgkje.png"
+        "https://res.cloudinary.com/demo/smartroll1.jpg",
+        "https://res.cloudinary.com/demo/smartroll2.jpg",
+        "https://res.cloudinary.com/demo/smartroll3.jpg"
       ],
       "category_id": "c1",
       "variants": [
@@ -40,27 +45,34 @@
           "name": "Size 1.2m x 2m",
           "extra_price": 200000,
           "stock": 12
+        },
+        {
+          "id": "v3",
+          "name": "Màu xám",
+          "extra_price": 100000,
+          "stock": 10
         }
       ]
     },
     {
-      "id": "p5",
-      "name": "Rèm cuốn thông minh EcoRoll",
+      "id": "p2",
+      "name": "Rèm cuốn EcoRoll",
       "base_price": 1300000,
-      "description": "Rèm cuốn tiết kiệm điện, cảm biến ánh sáng tự động.",
+      "description": "Rèm cuốn EcoRoll tiết kiệm điện, cảm biến ánh sáng, dễ lắp đặt.",
       "images": [
-        "https://res.cloudinary.com/demo/ecoroll.jpg"
+        "https://res.cloudinary.com/demo/ecoroll1.jpg",
+        "https://res.cloudinary.com/demo/ecoroll2.jpg"
       ],
       "category_id": "c1",
       "variants": [
         {
-          "id": "v8",
+          "id": "v4",
           "name": "Size 0.8m x 1.5m",
           "extra_price": 0,
           "stock": 25
         },
         {
-          "id": "v9",
+          "id": "v5",
           "name": "Size 1m x 2m",
           "extra_price": 150000,
           "stock": 10
@@ -68,23 +80,24 @@
       ]
     },
     {
-      "id": "p2",
+      "id": "p3",
       "name": "Rèm chống nắng AutoShade",
       "base_price": 1800000,
-      "description": "Rèm tự động chống nắng 3 lớp, cảm biến nhiệt độ.",
+      "description": "Rèm tự động chống nắng 3 lớp, cảm biến nhiệt độ, bảo vệ nội thất.",
       "images": [
-        "https://res.cloudinary.com/demo/autoshade1.jpg"
+        "https://res.cloudinary.com/demo/autoshade1.jpg",
+        "https://res.cloudinary.com/demo/autoshade2.jpg"
       ],
       "category_id": "c2",
       "variants": [
         {
-          "id": "v3",
-          "name": "Bản tiêu chuẩn",
+          "id": "v6",
+          "name": "Tiêu chuẩn",
           "extra_price": 0,
           "stock": 14
         },
         {
-          "id": "v4",
+          "id": "v7",
           "name": "Chất liệu cao cấp",
           "extra_price": 300000,
           "stock": 5
@@ -92,17 +105,17 @@
       ]
     },
     {
-      "id": "p6",
+      "id": "p4",
       "name": "Rèm chống nắng SunBlocker",
       "base_price": 2000000,
-      "description": "Rèm tự động chống nắng 4 lớp, chống tia UV.",
+      "description": "Rèm tự động chống nắng 4 lớp, chống tia UV, động cơ êm.",
       "images": [
-        "https://res.cloudinary.com/demo/sunblocker.jpg"
+        "https://res.cloudinary.com/demo/sunblocker1.jpg"
       ],
       "category_id": "c2",
       "variants": [
         {
-          "id": "v10",
+          "id": "v8",
           "name": "Size 1.5m x 2m",
           "extra_price": 0,
           "stock": 8
@@ -110,36 +123,38 @@
       ]
     },
     {
-      "id": "p3",
-      "name": "Rèm điều khiển từ xa RemoteCurtain",
+      "id": "p5",
+      "name": "Rèm điều khiển RemoteCurtain",
       "base_price": 2200000,
-      "description": "Rèm đóng mở bằng remote và app, động cơ êm, bền.",
+      "description": "Đóng mở bằng remote và app, động cơ êm, bền, bảo hành 2 năm.",
       "images": [
-        "https://res.cloudinary.com/demo/remote1.jpg"
+        "https://res.cloudinary.com/demo/remote1.jpg",
+        "https://res.cloudinary.com/demo/remote2.jpg"
       ],
       "category_id": "c3",
       "variants": [
         {
-          "id": "v5",
-          "name": "Bản tiêu chuẩn",
+          "id": "v9",
+          "name": "Tiêu chuẩn",
           "extra_price": 0,
           "stock": 15
         },
         {
-          "id": "v6",
-          "name": "Bản cao cấp (động cơ êm hơn)",
+          "id": "v10",
+          "name": "Cao cấp",
           "extra_price": 500000,
           "stock": 10
         }
       ]
     },
     {
-      "id": "p7",
-      "name": "Rèm điều khiển từ xa SilentCurtain",
+      "id": "p6",
+      "name": "Rèm điều khiển SilentCurtain",
       "base_price": 2500000,
       "description": "Động cơ siêu êm, hỗ trợ app và remote, bảo hành 3 năm.",
       "images": [
-        "https://res.cloudinary.com/demo/silentcurtain.jpg"
+        "https://res.cloudinary.com/demo/silent1.jpg",
+        "https://res.cloudinary.com/demo/silent2.jpg"
       ],
       "category_id": "c3",
       "variants": [
@@ -158,24 +173,50 @@
       ]
     },
     {
-      "id": "p4",
+      "id": "p7",
       "name": "Phụ kiện rèm thông minh",
       "base_price": 500000,
-      "description": "Các phụ kiện bổ sung cho rèm thông minh.",
-      "images": [],
+      "description": "Các phụ kiện bổ sung, bao gồm bộ điều khiển và lắp đặt nhanh.",
+      "images": [
+        "https://res.cloudinary.com/demo/accessory1.jpg"
+      ],
       "category_id": "c4",
       "variants": [
         {
-          "id": "v7",
+          "id": "v13",
           "name": "Phụ kiện cơ bản",
           "extra_price": 0,
           "stock": 50
         },
         {
-          "id": "v13",
+          "id": "v14",
           "name": "Bộ điều khiển bổ sung",
           "extra_price": 250000,
           "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "name": "Rèm văn phòng SmartOffice",
+      "base_price": 1800000,
+      "description": "Rèm thông minh cho văn phòng, tự động đóng mở theo lịch, tiết kiệm điện.",
+      "images": [
+        "https://res.cloudinary.com/demo/office1.jpg"
+      ],
+      "category_id": "c5",
+      "variants": [
+        {
+          "id": "v15",
+          "name": "Size 1.5m x 2m",
+          "extra_price": 0,
+          "stock": 10
+        },
+        {
+          "id": "v16",
+          "name": "Chất liệu chống nắng",
+          "extra_price": 200000,
+          "stock": 5
         }
       ]
     }
@@ -184,7 +225,7 @@
     {
       "id": "b1",
       "title": "Cách chọn rèm cửa thông minh",
-      "content": "<p>Nội dung chi tiết về cách chọn rèm...</p>",
+      "content": "<h2>Hướng dẫn chọn rèm cửa thông minh phù hợp với gia đình bạn</h2>\n<p>Rèm cửa thông minh đang trở thành xu hướng trong các ngôi nhà hiện đại. Không chỉ giúp điều chỉnh ánh sáng, rèm còn mang lại sự tiện nghi, tiết kiệm năng lượng và bảo vệ nội thất.</p>\n<h3>1. Xác định nhu cầu sử dụng</h3>\n<ul>\n<li>Phòng khách: Nên chọn rèm tự động mở/đóng theo ánh sáng, hỗ trợ điều khiển từ xa.</li>\n<li>Phòng ngủ: Ưu tiên rèm chống nắng, động cơ êm để không ảnh hưởng giấc ngủ.</li>\n<li>Văn phòng: Chọn rèm lập lịch đóng mở, tiết kiệm điện và giảm chói sáng màn hình.</li>\n</ul>\n<h3>2. Chọn loại rèm</h3>\n<ul>\n<li>Rèm cuốn thông minh: Tiện lợi, dễ vệ sinh, phù hợp cửa sổ lớn.</li>\n<li>Rèm điều khiển từ xa: Tối ưu cho căn hộ cao cấp, phòng khách hoặc phòng họp.</li>\n<li>Rèm chống nắng tự động: Bảo vệ nội thất khỏi tia UV, thích hợp phòng hướng Tây hoặc có ánh nắng gay gắt.</li>\n</ul>\n<h3>3. Tính năng bổ sung</h3>\n<ul>\n<li>Cảm biến ánh sáng và nhiệt độ.</li>\n<li>Điều khiển qua app và remote.</li>\n<li>Hẹn giờ đóng mở tự động.</li>\n<li>Vật liệu chống bụi, dễ vệ sinh và bền bỉ.</li>\n</ul>\n<p><em>Chọn rèm cửa thông minh đúng cách sẽ nâng tầm không gian sống và bảo vệ ngôi nhà của bạn.</em></p>",
       "images": [
         "https://res.cloudinary.com/demo/blog1.jpg"
       ],
@@ -193,9 +234,36 @@
     {
       "id": "b2",
       "title": "Lợi ích của rèm tự động",
-      "content": "<p>Bài viết phân tích lợi ích...</p>",
+      "content": "<h2>Lợi ích khi sử dụng rèm tự động trong gia đình và văn phòng</h2>\n<p>Rèm tự động mang lại nhiều tiện ích mà các loại rèm truyền thống không có:</p>\n<h3>1. Tiết kiệm năng lượng</h3>\n<ul>\n<li>Đóng mở tự động giúp giảm sử dụng điều hòa và đèn chiếu sáng.</li>\n<li>Điều chỉnh ánh sáng theo cường độ bên ngoài, tối ưu hóa nhiệt độ phòng.</li>\n</ul>\n<h3>2. Bảo vệ nội thất</h3>\n<ul>\n<li>Chống tia UV, giữ màu sắc đồ nội thất lâu phai.</li>\n<li>Ngăn bụi và ẩm mốc cho không gian sống và làm việc.</li>\n</ul>\n<h3>3. Tiện nghi và an toàn</h3>\n<ul>\n<li>Điều khiển từ xa qua app hoặc remote.</li>\n<li>Tạo lịch đóng mở tự động, đặc biệt hữu ích khi đi vắng.</li>\n<li>Động cơ êm, không gây tiếng ồn, an toàn cho trẻ nhỏ và người già.</li>\n</ul>\n<p><em>Rèm tự động là giải pháp thông minh, tiết kiệm và tiện nghi cho mọi không gian.</em></p>",
       "images": [],
       "created_at": "2025-12-11 08:00:00"
+    },
+    {
+      "id": "b3",
+      "title": "Các loại rèm thông minh phổ biến",
+      "content": "<h2>Khám phá các loại rèm thông minh phổ biến trên thị trường</h2>\n<p>Rèm thông minh hiện nay có nhiều loại, mỗi loại có ưu điểm riêng phù hợp với nhu cầu:</p>\n<h3>1. Rèm cuốn thông minh</h3>\n<ul>\n<li>Dễ vệ sinh, vận hành êm ái.</li>\n<li>Điều khiển qua app, tự động đóng mở theo ánh sáng.</li>\n</ul>\n<h3>2. Rèm điều khiển từ xa</h3>\n<ul>\n<li>Phù hợp cửa sổ lớn hoặc phòng khách, phòng họp.</li>\n<li>Có thể lập lịch và đồng bộ nhiều rèm cùng lúc.</li>\n</ul>\n<h3>3. Rèm chống nắng tự động</h3>\n<ul>\n<li>3-4 lớp chống tia UV, bảo vệ nội thất.</li>\n<li>Động cơ êm, tích hợp cảm biến nhiệt độ.</li>\n</ul>\n<h3>4. Rèm thông minh văn phòng</h3>\n<ul>\n<li>Tự động đóng mở theo giờ làm việc.</li>\n<li>Tiết kiệm điện năng, bảo vệ màn hình máy tính khỏi ánh sáng trực tiếp.</li>\n</ul>\n<p><em>Chọn loại rèm phù hợp giúp tối ưu tiện nghi, bảo vệ không gian và tiết kiệm năng lượng.</em></p>",
+      "images": [
+        "https://res.cloudinary.com/demo/blog2.jpg"
+      ],
+      "created_at": "2025-12-11 09:30:00"
+    },
+    {
+      "id": "b4",
+      "title": "Hướng dẫn lắp đặt rèm thông minh",
+      "content": "<h2>Hướng dẫn chi tiết lắp đặt rèm thông minh tại nhà</h2>\n<p>Lắp đặt rèm thông minh không quá phức tạp nếu bạn làm theo hướng dẫn sau:</p>\n<h3>1. Chuẩn bị dụng cụ</h3>\n<ul>\n<li>Máy khoan, vít, thước đo, bút đánh dấu.</li>\n<li>Rèm thông minh kèm bộ động cơ và bộ điều khiển.</li>\n</ul>\n<h3>2. Đo và đánh dấu vị trí lắp đặt</h3>\n<ul>\n<li>Đo chiều rộng và cao của cửa sổ.</li>\n<li>Đánh dấu vị trí giá treo rèm để đảm bảo cân đối.</li>\n</ul>\n<h3>3. Lắp giá treo và động cơ</h3>\n<ul>\n<li>Bắt vít giá treo chắc chắn.</li>\n<li>Lắp động cơ và kết nối với bộ điều khiển.</li>\n</ul>\n<h3>4. Kết nối app và kiểm tra</h3>\n<ul>\n<li>Cài app chính hãng.</li>\n<li>Kết nối rèm với Wi-Fi hoặc Bluetooth.</li>\n<li>Kiểm tra vận hành đóng mở, lập lịch, cảm biến ánh sáng.</li>\n</ul>\n<p><em>Thực hiện đúng hướng dẫn giúp rèm vận hành êm ái, an toàn và bền bỉ.</em></p>",
+      "images": [
+        "https://res.cloudinary.com/demo/blog3.jpg"
+      ],
+      "created_at": "2025-12-11 10:00:00"
+    },
+    {
+      "id": "b5",
+      "title": "Bảo dưỡng rèm thông minh định kỳ",
+      "content": "<h2>Bảo dưỡng rèm thông minh để kéo dài tuổi thọ</h2>\n<p>Để rèm thông minh luôn hoạt động hiệu quả, cần thực hiện bảo dưỡng định kỳ:</p>\n<h3>1. Vệ sinh bề mặt rèm</h3>\n<ul>\n<li>Dùng khăn mềm lau bụi, không dùng hóa chất mạnh.</li>\n<li>Kiểm tra vết bẩn và xử lý kịp thời để tránh ăn mòn vải.</li>\n</ul>\n<h3>2. Kiểm tra động cơ và bộ điều khiển</h3>\n<ul>\n<li>Thường xuyên kiểm tra kết nối Wi-Fi, pin remote.</li>\n<li>Đảm bảo động cơ vận hành êm và không bị kẹt.</li>\n</ul>\n<h3>3. Cập nhật phần mềm</h3>\n<ul>\n<li>Cập nhật app và firmware mới để tối ưu hiệu suất và bảo mật.</li>\n</ul>\n<h3>4. Hướng dẫn sử dụng đúng</h3>\n<ul>\n<li>Tránh kéo rèm bằng tay khi động cơ đang vận hành.</li>\n<li>Không để vật nặng chạm vào bề mặt rèm.</li>\n</ul>\n<p><em>Bảo dưỡng đúng cách giúp rèm hoạt động bền bỉ, tiết kiệm chi phí sửa chữa và tăng tiện nghi sử dụng.</em></p>",
+      "images": [
+        "https://res.cloudinary.com/demo/blog4.jpg"
+      ],
+      "created_at": "2025-12-11 11:00:00"
     }
   ],
   "users": [
@@ -224,10 +292,20 @@
       "password": "123456"
     },
     {
-      "id": "e4e0",
-      "name": "a",
-      "email": "a@gmail.com",
-      "phone": ""
+      "id": "u4",
+      "name": "Lê Thị C",
+      "email": "lc@example.com",
+      "phone": "0934567890",
+      "role": "customer",
+      "password": "123456"
+    },
+    {
+      "id": "u5",
+      "name": "Phạm Văn D",
+      "email": "pd@example.com",
+      "phone": "0945678901",
+      "role": "customer",
+      "password": "123456"
     }
   ],
   "cart_items": [
@@ -264,6 +342,41 @@
       "total_price": 6200000,
       "status": "completed",
       "created_at": "2025-12-10 14:32:00"
+    },
+    {
+      "id": "o2",
+      "user_id": "u2",
+      "total_price": 3500000,
+      "status": "completed",
+      "created_at": "2025-12-10 15:00:00"
+    },
+    {
+      "id": "o3",
+      "user_id": "u3",
+      "total_price": 4100000,
+      "status": "pending",
+      "created_at": "2025-12-11 09:00:00"
+    },
+    {
+      "id": "o4",
+      "user_id": "u4",
+      "total_price": 2800000,
+      "status": "completed",
+      "created_at": "2025-12-11 10:30:00"
+    },
+    {
+      "id": "o5",
+      "user_id": "u5",
+      "total_price": 5600000,
+      "status": "processing",
+      "created_at": "2025-12-11 11:00:00"
+    },
+    {
+      "id": "o6",
+      "user_id": "u2",
+      "total_price": 2700000,
+      "status": "completed",
+      "created_at": "2025-12-11 12:00:00"
     }
   ],
   "order_items": [
@@ -282,6 +395,70 @@
       "variant_id": "v6",
       "quantity": 2,
       "price": 2700000
+    },
+    {
+      "id": "oi3",
+      "order_id": "o2",
+      "product_id": "p2",
+      "variant_id": "v5",
+      "quantity": 1,
+      "price": 1450000
+    },
+    {
+      "id": "oi4",
+      "order_id": "o2",
+      "product_id": "p4",
+      "variant_id": "v8",
+      "quantity": 1,
+      "price": 2050000
+    },
+    {
+      "id": "oi5",
+      "order_id": "o3",
+      "product_id": "p5",
+      "variant_id": "v10",
+      "quantity": 1,
+      "price": 2700000
+    },
+    {
+      "id": "oi6",
+      "order_id": "o3",
+      "product_id": "p7",
+      "variant_id": "v14",
+      "quantity": 1,
+      "price": 1400000
+    },
+    {
+      "id": "oi7",
+      "order_id": "o4",
+      "product_id": "p1",
+      "variant_id": "v1",
+      "quantity": 1,
+      "price": 1500000
+    },
+    {
+      "id": "oi8",
+      "order_id": "o4",
+      "product_id": "p8",
+      "variant_id": "v15",
+      "quantity": 1,
+      "price": 1300000
+    },
+    {
+      "id": "oi9",
+      "order_id": "o5",
+      "product_id": "p6",
+      "variant_id": "v12",
+      "quantity": 2,
+      "price": 6200000
+    },
+    {
+      "id": "oi10",
+      "order_id": "o6",
+      "product_id": "p3",
+      "variant_id": "v7",
+      "quantity": 1,
+      "price": 2100000
     }
   ]
 }
