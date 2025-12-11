@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <!-- Danh sách sản phẩm mới -->
+    <!-- Danh sách sản phẩm -->
     <div class="mb-4">
       <h4 class="fw-bold mb-3">Sản phẩm</h4>
       <div class="table-responsive shadow-sm rounded-4 bg-white p-3">
@@ -30,7 +30,7 @@
             <tr v-for="p in products" :key="p.id">
               <td>
                 <img
-                  :src="p.images[0]"
+                  :src="p.images[0] || '/placeholder.png'"
                   style="width: 60px; height: 60px; object-fit: cover"
                   class="rounded"
                 />
@@ -81,36 +81,20 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { Category } from "../../../services/category.service";
-import { Product } from "../../../services/product.service";
-import { User } from "../../../services/user.service";
-import { Order } from "../../../services/order.service";
-
-const categoryService = new Category();
-const productService = new Product();
-const userService = new User();
-const orderService = new Order();
+import data from "../../../assets/data/data.json";
 
 const categories = ref([]);
 const products = ref([]);
 const users = ref([]);
 const orders = ref([]);
-
 const stats = ref([]);
 
-onMounted(async () => {
-  // Lấy dữ liệu từ API
-  const catRes = await categoryService.list();
-  categories.value = catRes.data || [];
-
-  const prodRes = await productService.list();
-  products.value = prodRes.data || [];
-
-  const userRes = await userService.list();
-  users.value = userRes.data || [];
-
-  const orderRes = await orderService.list();
-  orders.value = orderRes.data || [];
+onMounted(() => {
+  // Gán dữ liệu từ JSON mock
+  categories.value = data.categories || [];
+  products.value = data.products || [];
+  users.value = data.users || [];
+  orders.value = data.orders || [];
 
   stats.value = [
     { title: "Danh mục", value: categories.value.length },
@@ -120,16 +104,19 @@ onMounted(async () => {
   ];
 });
 
+// Lấy tên danh mục theo id
 const getCategoryName = (id) => {
   const c = categories.value.find((x) => x.id === id);
   return c ? c.name : "-";
 };
 
+// Lấy tên người dùng theo id
 const getUserName = (id) => {
   const u = users.value.find((x) => x.id === id);
   return u ? u.name : "-";
 };
 
+// Format tiền VND
 const formatMoney = (v) => {
   return new Intl.NumberFormat("vi-VN", {
     style: "currency",
