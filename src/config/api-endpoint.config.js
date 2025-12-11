@@ -5,4 +5,5 @@ export const API_ENDPOINT = {
     ORDER: '/orders',
     ORDER_ITEM: '/order_items',
     CART: '/cart_items',
+    BLOG: "/blogs",
 };

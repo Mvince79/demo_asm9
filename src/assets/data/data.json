@@ -180,6 +180,24 @@
       ]
     }
   ],
+  "blogs": [
+    {
+      "id": "b1",
+      "title": "Cách chọn rèm cửa thông minh",
+      "content": "<p>Nội dung chi tiết về cách chọn rèm...</p>",
+      "images": [
+        "https://res.cloudinary.com/demo/blog1.jpg"
+      ],
+      "created_at": "2025-12-10 10:00:00"
+    },
+    {
+      "id": "b2",
+      "title": "Lợi ích của rèm tự động",
+      "content": "<p>Bài viết phân tích lợi ích...</p>",
+      "images": [],
+      "created_at": "2025-12-11 08:00:00"
+    }
+  ],
   "users": [
     {
       "id": "u1",
@@ -221,17 +239,21 @@
       "quantity": 1
     },
     {
-      "id": "ci2",
-      "user_id": "u1",
-      "product_id": "p2",
-      "variant_id": "v3",
-      "quantity": 2
+      "quantity": 1,
+      "id": "ci2"
     },
     {
       "id": "ci3",
       "user_id": "u3",
       "product_id": "p7",
       "variant_id": "v12",
+      "quantity": 1
+    },
+    {
+      "id": "b71c",
+      "user_id": "u1",
+      "product_id": "p5",
+      "variant_id": "v9",
       "quantity": 1
     }
   ],

@@ -116,6 +116,10 @@ import Product_detail from "../pages/client/product_detail/product_detail.vue";
 import Login from "../components/Login.vue";
 import Register from "../components/Register.vue";
 import ForgotPassword from "../components/ForgotPassword.vue";
+import Blog_list from "../pages/admin/blog/blog_list.vue";
+import Blog_add from "../pages/admin/blog/blog_add.vue";
+import Blog_edit from "../pages/admin/blog/blog_edit.vue";
+import Blog_detail from "../pages/client/blog_detail/blog_detail.vue";
 
 const routes = [
   {
@@ -137,6 +141,7 @@ const routes = [
       { path: "login", component: Login },
       { path: "register", component: Register },
       { path: "forgot-password", component: ForgotPassword },
+      {path: "blog/:id", component: Blog_detail},
     ],
   },
   {
@@ -155,6 +160,9 @@ const routes = [
       { path: "/user_edit/:id", component: user_edit },
       { path: "/order_list", component: order_list },
       { path: "/order_edit/:id", component: order_edit },
+      { path: "/blog_list", component: Blog_list },
+      { path: "/blog_add", component: Blog_add },
+      { path: "/blog_edit/:id", component: Blog_edit },
     ],
     meta: { requiresAdmin: true }, // <-- đánh dấu route admin
   },
