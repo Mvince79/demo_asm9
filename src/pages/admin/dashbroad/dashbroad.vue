@@ -23,7 +23,7 @@
               <th>Tên</th>
               <th>Giá cơ bản</th>
               <th>Danh mục</th>
-              <th>Variants</th>
+              <th>Biến thể</th>
             </tr>
           </thead>
           <tbody>
@@ -38,7 +38,7 @@
               <td>{{ p.name }}</td>
               <td>{{ formatMoney(p.base_price) }}</td>
               <td>{{ getCategoryName(p.category_id) }}</td>
-              <td>{{ p.variants.length }}</td>
+              <td>{{ p.variants?.length || 0 }}</td>
             </tr>
           </tbody>
         </table>
@@ -90,6 +90,7 @@ const orders = ref([]);
 const stats = ref([]);
 
 onMounted(() => {
+  console.log("JSON DATA:", data);
   // Gán dữ liệu từ JSON mock
   categories.value = data.categories || [];
   products.value = data.products || [];

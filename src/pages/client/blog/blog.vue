@@ -13,12 +13,15 @@
         >
           <div class="row g-0 align-items-center">
             <div class="col-md-4">
-              <img
-                :src="post.images?.[0]"
-                class="img-fluid rounded-start"
-                alt="Banner bài viết"
-              />
+              <div class="ratio ratio-16x9 rounded-start overflow-hidden">
+                <img
+                  :src="post.images?.[0]"
+                  class="img-fluid w-100 h-100 object-fit-cover"
+                  alt="Banner bài viết"
+                />
+              </div>
             </div>
+
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title fw-semibold">{{ post.title }}</h5>

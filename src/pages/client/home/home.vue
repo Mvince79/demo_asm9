@@ -17,6 +17,20 @@ onMounted(async () => {
   }
 });
 
+// onMounted(async () => {
+//   try {
+//     const res = await productService.list();
+//     const list = res.data.products || res.data;
+
+//     products.value = [...list]
+//       .sort((a, b) => b.base_price - a.base_price)
+//       .slice(0, 1); // 1 sản phẩm giá cao nhất
+//   } catch (error) {
+//     console.error(error);
+//   }
+// });
+
+
 const viewDetail = (id) =>
   router.push({ name: "product-detail", params: { id } });
 

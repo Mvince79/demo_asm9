@@ -182,7 +182,7 @@ const submitEdit = async () => {
 
     await blogService.update(blogObj.value.id, blogObj.value);
     alert("Cập nhật bài viết thành công!");
-    router.push("/blog");
+    router.push("/blog_list");
   } catch (e) {
     console.error(e);
     alert("Cập nhật thất bại!");

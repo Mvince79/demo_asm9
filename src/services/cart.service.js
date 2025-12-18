@@ -1,3 +1,4 @@
+// services/cart.service.js
 import axios from "axios";
 import { API_URL } from "../environments/environment";
 import { API_ENDPOINT } from "../config/api-endpoint.config";
@@ -12,7 +13,8 @@ export class Cart {
     }
 
     update(id, data) {
-        return axios.put(`${API_URL + API_ENDPOINT.CART}/${id}`, data);
+        // PATCH để update từng field
+        return axios.patch(`${API_URL + API_ENDPOINT.CART}/${id}`, data);
     }
 
     delete(id) {

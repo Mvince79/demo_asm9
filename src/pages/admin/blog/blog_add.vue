@@ -162,7 +162,7 @@ const submitBlog = async () => {
 
     await blogService.create(blogObj.value);
     alert("Thêm bài viết thành công!");
-    router.push("/blog");
+    router.push("/blog_list");
   } catch (e) {
     console.error(e);
     alert("Thêm thất bại!");

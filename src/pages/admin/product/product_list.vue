@@ -31,8 +31,10 @@
               />
             </td>
             <td class="fw-semibold">{{ item.name }}</td>
-            <td>{{ formatMoney(item.price) }}</td>
-            <td>{{ item.category }}</td>
+            <td>{{ formatMoney(item.base_price) }}</td>
+
+            <td>{{ getCategoryName(item.category_id) }}</td>
+
             <td class="text-center">
               <router-link
                 :to="`/product_edit/${item.id}`"
@@ -57,6 +59,9 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { Product } from "../../../services/product.service";
+import data from "../../../assets/data/data.json";
+
+const categories = ref([]);
 
 const productService = new Product();
 const list = ref([]);
@@ -64,7 +69,14 @@ const list = ref([]);
 onMounted(async () => {
   const res = await productService.list();
   list.value = res.data || [];
+  
+  categories.value = data.categories || [];
 });
+
+const getCategoryName = (id) => {
+  const c = categories.value.find((x) => x.id === id);
+  return c ? c.name : "-";
+};
 
 const deleteItem = async (id) => {
   if (!confirm("Bạn có chắc muốn xóa?")) return;

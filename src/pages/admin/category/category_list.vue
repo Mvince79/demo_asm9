@@ -47,6 +47,10 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { Category } from "../../../services/category.service";
+import { Product } from "../../../services/product.service";
+
+const productService = new Product();
+const products = ref([]);
 
 const service = new Category();
 const list = ref([]);
@@ -54,12 +58,30 @@ const list = ref([]);
 onMounted(async () => {
   const res = await service.list();
   list.value = res.data || [];
+
+  const productRes = await productService.list();
+  products.value = productRes.data || [];
 });
 
+// const remove = async (id) => {
+//   if (!confirm("Xóa danh mục này?")) return;
+//   await service.delete(id);
+//   list.value = list.value.filter((x) => x.id !== id);
+//   alert("Đã xóa");
+// };
+
 const remove = async (id) => {
-  if (!confirm("Xóa danh mục này?")) return;
+  const used = products.value.some((p) => p.category_id === id);
+
+  if (used) {
+    alert("❌ Không thể xóa: Danh mục đang có sản phẩm!");
+    return;
+  }
+
+  if (!confirm("Bạn có chắc muốn xóa danh mục này?")) return;
+
   await service.delete(id);
   list.value = list.value.filter((x) => x.id !== id);
-  alert("Đã xóa");
+  alert("✅ Đã xóa danh mục");
 };
 </script>

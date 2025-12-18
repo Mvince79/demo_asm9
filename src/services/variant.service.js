@@ -2,24 +2,51 @@ import axios from "axios";
 import { API_URL } from "../environments/environment";
 import { API_ENDPOINT } from "../config/api-endpoint.config";
 
-export class Variant {
-    list() {
-        return axios.get(API_URL + API_ENDPOINT.VARIANT);
+export class VariantService {
+    async add(productId, variant) {
+        const product = await axios.get(
+            `${API_URL + API_ENDPOINT.PRODUCT}/${productId}`
+        );
+
+        const variants = product.data.variants || [];
+        variants.push({
+            id: crypto.randomUUID(),
+            ...variant,
+        });
+
+        return axios.put(`${API_URL + API_ENDPOINT.PRODUCT}/${productId}`, {
+            ...product.data,
+            variants,
+        });
     }
 
-    get(id) {
-        return axios.get(`${API_URL + API_ENDPOINT.VARIANT}/${id}`);
+    async update(productId, variantId, data) {
+        const product = await axios.get(
+            `${API_URL + API_ENDPOINT.PRODUCT}/${productId}`
+        );
+
+        const variants = product.data.variants.map((v) =>
+            v.id === variantId ? { ...v, ...data } : v
+        );
+
+        return axios.put(`${API_URL + API_ENDPOINT.PRODUCT}/${productId}`, {
+            ...product.data,
+            variants,
+        });
     }
 
-    create(data) {
-        return axios.post(API_URL + API_ENDPOINT.VARIANT, data);
-    }
+    async delete(productId, variantId) {
+        const product = await axios.get(
+            `${API_URL + API_ENDPOINT.PRODUCT}/${productId}`
+        );
 
-    update(id, data) {
-        return axios.put(`${API_URL + API_ENDPOINT.VARIANT}/${id}`, data);
-    }
+        const variants = product.data.variants.filter(
+            (v) => v.id !== variantId
+        );
 
-    delete(id) {
-        return axios.delete(`${API_URL + API_ENDPOINT.VARIANT}/${id}`);
+        return axios.put(`${API_URL + API_ENDPOINT.PRODUCT}/${productId}`, {
+            ...product.data,
+            variants,
+        });
     }
 }

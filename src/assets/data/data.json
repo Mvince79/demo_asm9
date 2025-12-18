@@ -10,7 +10,7 @@
     },
     {
       "id": "c3",
-      "name": "Rèm điều khiển từ xa"
+      "name": "Rèm điều khiển thông minh"
     },
     {
       "id": "c4",
@@ -26,11 +26,11 @@
       "id": "p1",
       "name": "Rèm cuốn SmartRoll Pro",
       "base_price": 1500000,
-      "description": "Rèm vải cao cấp có thể điều khiển đóng/mở qua remote hoặc ứng dụng điện thoại. Với cảm biến ánh sáng tích hợp, rèm tự động điều chỉnh để giữ nhiệt độ phòng ổn định, tiết kiệm điện năng. Thiết kế hiện đại, dễ lắp đặt, phù hợp với mọi không gian sống.",
+      "description": "<p><strong>Giá cơ bản:</strong> 1.500.000₫</p><p><strong>Mô tả:</strong><br>Rèm vải cao cấp có thể điều khiển đóng/mở qua remote hoặc ứng dụng điện thoại. Với cảm biến ánh sáng tích hợp, rèm tự động điều chỉnh để giữ nhiệt độ phòng ổn định, tiết kiệm điện năng. Thiết kế hiện đại, dễ lắp đặt, phù hợp với mọi không gian sống.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif\" alt=\"SmartRoll Pro 1\" width=\"900\" height=\"676\"><br><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162533/bsl5.1_c3ndu2.avif\" alt=\"SmartRoll Pro 2\" width=\"900\" height=\"672\"><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341313/rem-cuon-van-phong-rc-571_iig01m.jpg\" alt=\"SmartRoll Pro 3\" width=\"550\" height=\"550\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"e7e7953a9a9c2260b08fa355af846b720\">Size 1m x 1.5m — Stock: 20 — Giá thêm: 0₫</li><li data-list-item-id=\"e8eaac6217b5c743fa8f076b65bd70556\">Size 1.2m x 2m — Stock: 12 — Giá thêm: 200.000₫</li><li data-list-item-id=\"ec6291a3c89794e6c6efca5b6907ef3bd\">Màu xám — Stock: 10 — Giá thêm: 100.000₫</li></ul>",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif",
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162533/bsl5.1_c3ndu2.avif",
-        "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341313/rem-cuon-van-phong-rc-571_iig01m.jpg"
       ],
       "category_id": "c1",
       "variants": [
@@ -58,10 +58,10 @@
       "id": "p2",
       "name": "Rèm cuốn EcoRoll",
       "base_price": 1300000,
-      "description": "Rèm cuốn mỏng nhẹ, tích hợp động cơ êm ái, có thể hẹn giờ hoặc lập trình mở/đóng theo nhu cầu. Chất liệu chống nắng UV, bảo vệ đồ nội thất khỏi phai màu. Hoạt động êm, không gây tiếng ồn, tạo không gian yên tĩnh và sang trọng.",
+      "description": "<p><strong>Giá cơ bản:</strong> 1.300.000₫</p><p><strong>Mô tả:</strong><br>Rèm cuốn mỏng nhẹ, tích hợp động cơ êm ái, có thể hẹn giờ hoặc lập trình mở/đóng theo nhu cầu. Chất liệu chống nắng UV, bảo vệ đồ nội thất khỏi phai màu. Hoạt động êm, không gây tiếng ồn, tạo không gian yên tĩnh và sang trọng.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935540/gia-rem-cau-vong_lyskov.jpg\" alt=\"EcoRoll 1\" width=\"650\" height=\"650\"><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935546/gia-rem-cau-vong-300x300_krctzp.png\" alt=\"EcoRoll 2\" width=\"300\" height=\"300\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"e483669da6ae0d0afb1b9502b8ebf554f\">Size 0.8m x 1.5m — Stock: 25 — Giá thêm: 0₫</li><li data-list-item-id=\"e94cbd9aa1a98d6592329b6f88997e146\">Size 1m x 2m — Stock: 10 — Giá thêm: 150.000₫</li></ul>",
       "images": [
-        "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif",
-        "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935540/gia-rem-cau-vong_lyskov.jpg",
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935546/gia-rem-cau-vong-300x300_krctzp.png"
       ],
       "category_id": "c1",
       "variants": [
@@ -69,7 +69,7 @@
           "id": "v4",
           "name": "Size 0.8m x 1.5m",
           "extra_price": 0,
-          "stock": 25
+          "stock": 21
         },
         {
           "id": "v5",
@@ -83,10 +83,10 @@
       "id": "p3",
       "name": "Rèm chống nắng AutoShade",
       "base_price": 1800000,
-      "description": "Rèm vải cao cấp có thể kết nối với các hệ thống nhà thông minh như Google Home, Alexa, Apple HomeKit. Chỉ cần giọng nói hoặc ứng dụng điện thoại là bạn có thể điều khiển rèm dễ dàng. Thiết kế đa dạng màu sắc, mang đến phong cách hiện đại cho căn phòng.",
+      "description": "<p><strong>Giá cơ bản:</strong> 1.800.000₫</p><p><strong>Mô tả:</strong><br>Rèm vải cao cấp có thể kết nối với các hệ thống nhà thông minh như Google Home, Alexa, Apple HomeKit. Chỉ cần giọng nói hoặc ứng dụng điện thoại là bạn có thể điều khiển rèm dễ dàng. Thiết kế đa dạng màu sắc, mang đến phong cách hiện đại cho căn phòng.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl4.1_dbspga.avif\" alt=\"AutoShade 1\" width=\"900\" height=\"900\"><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169041/rem-trang_t8ooip.png\" alt=\"AutoShade 2\" width=\"1536\" height=\"1536\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"e352c7da7d2c53cff9290f5140cd542e3\">Tiêu chuẩn — Stock: 14 — Giá thêm: 0₫</li><li data-list-item-id=\"ed9c1b8027cf6b5b9ec9880aaee509656\">Chất liệu cao cấp — Stock: 5 — Giá thêm: 300.000₫</li></ul>",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl4.1_dbspga.avif",
-        "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169041/rem-trang_t8ooip.png"
       ],
       "category_id": "c2",
       "variants": [
@@ -108,9 +108,9 @@
       "id": "p4",
       "name": "Rèm chống nắng SunBlocker",
       "base_price": 2000000,
-      "description": "Rèm thông minh được trang bị cảm biến ánh sáng, tự động đóng lại khi ánh nắng quá mạnh và mở ra khi trời mát. Chất liệu vải cao cấp, chống bụi, dễ vệ sinh. Hoạt động êm, giúp bảo vệ mắt và nâng cao trải nghiệm sống tiện nghi.",
+      "description": "<p><strong>Giá cơ bản:</strong> 2.000.000₫</p><p><strong>Mô tả:</strong><br>Rèm thông minh được trang bị cảm biến ánh sáng, tự động đóng lại khi ánh nắng quá mạnh và mở ra khi trời mát. Chất liệu vải cao cấp, chống bụi, dễ vệ sinh. Hoạt động êm, giúp bảo vệ mắt và nâng cao trải nghiệm sống tiện nghi.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765167859/1-1-1-1_n1ij63.jpg\" alt=\"SunBlocker\" width=\"731\" height=\"731\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"e06096064abd61230e19c1c3db7644b95\">Size 1.5m x 2m — Stock: 8 — Giá thêm: 0₫</li></ul>",
       "images": [
-        "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl3.3_kxphxf.avif"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765167859/1-1-1-1_n1ij63.jpg"
       ],
       "category_id": "c2",
       "variants": [
@@ -126,10 +126,10 @@
       "id": "p5",
       "name": "Rèm điều khiển RemoteCurtain",
       "base_price": 2200000,
-      "description": "Rèm cửa kết hợp pin năng lượng mặt trời, tự động sạc và vận hành mà không cần kết nối điện trực tiếp. Có thể lập trình thời gian đóng/mở, giúp tiết kiệm năng lượng tối đa. Chất liệu vải cao cấp, chống nắng, chống ồn, mang đến không gian sống hiện đại và thân thiện môi trường.",
+      "description": "<p><strong>Giá cơ bản:</strong> 2.200.000₫</p><p><strong>Mô tả:</strong><br>Rèm cửa kết hợp pin năng lượng mặt trời, tự động sạc và vận hành mà không cần kết nối điện trực tiếp. Có thể lập trình thời gian đóng/mở, giúp tiết kiệm năng lượng tối đa. Chất liệu vải cao cấp, chống nắng, chống ồn, mang đến không gian sống hiện đại và thân thiện môi trường.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341539/rem-vai-cua-so-300x300_m4mx7o.png\" alt=\"RemoteCurtain 1\" width=\"300\" height=\"300\"><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341546/rem-vai-2-lop-1_gcayv4.png\" alt=\"RemoteCurtain 2\" width=\"798\" height=\"802\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"e59dfd4ebcd2ca4ca88caad7eea059d85\">Tiêu chuẩn — Stock: 15 — Giá thêm: 0₫</li><li data-list-item-id=\"eece19e6053af6b9815f6c322febd5f55\">Cao cấp — Stock: 10 — Giá thêm: 500.000₫</li></ul>",
       "images": [
-        "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162451/F%C3%96NSTERBLAD5_fz7p33.avif",
-        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765168917/1-1-1-1-1_qqwhr5.png"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341539/rem-vai-cua-so-300x300_m4mx7o.png",
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341546/rem-vai-2-lop-1_gcayv4.png"
       ],
       "category_id": "c3",
       "variants": [
@@ -151,10 +151,10 @@
       "id": "p6",
       "name": "Rèm điều khiển SilentCurtain",
       "base_price": 2500000,
-      "description": "Động cơ siêu êm, hỗ trợ app và remote, bảo hành 3 năm.",
+      "description": "<p><strong>Giá cơ bản:</strong> 2.500.000₫</p><p><strong>Mô tả:</strong><br>Động cơ siêu êm, hỗ trợ app và remote, bảo hành 3 năm.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169334/32_g7snsr.jpg\" alt=\"SilentCurtain 1\" width=\"720\" height=\"720\"><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169437/31_xsjpve.jpg\" alt=\"SilentCurtain 2\" width=\"720\" height=\"720\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"ede7292e0423dd810cc990c93214138e1\">Size 1.2m x 2m — Stock: 12 — Giá thêm: 0₫</li><li data-list-item-id=\"e2e45e338440ae294f8e3b201ee3c0a23\">Size 1.5m x 2.5m — Stock: 7 — Giá thêm: 600.000₫</li></ul>",
       "images": [
         "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169334/32_g7snsr.jpg",
-        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341413/rem-vai-cua-so-600x696_qlcege.webp"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169437/31_xsjpve.jpg"
       ],
       "category_id": "c3",
       "variants": [
@@ -174,58 +174,50 @@
     },
     {
       "id": "p7",
-      "name": "Phụ kiện rèm thông minh",
+      "name": "Rèm gỗ",
       "base_price": 500000,
-      "description": "Rèm vải dày cao cấp tích hợp lớp cách âm, giúp giảm tiếng ồn từ bên ngoài. Tự động đóng/mở theo lịch trình, vừa tiện lợi vừa tạo không gian yên tĩnh cho phòng ngủ hoặc phòng làm việc.",
+      "description": "<p><strong>Giá cơ bản:</strong> 500.000₫</p><p><strong>Mô tả:</strong><br>Rèm gỗ truyền thống, dễ vệ sinh, phù hợp trang trí phòng khách hoặc phòng làm việc.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935936/rem-sao-go-tu-dong-thao-nguyen-jgjfpqkl_zs9bj4.jpg\" alt=\"Rèm gỗ\" width=\"600\" height=\"600\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"eed95ca72395ae224fe950ad847811908\">Rèm gỗ — Stock: 50 — Giá thêm: 0₫</li></ul>",
       "images": [
-        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169334/32_g7snsr.jpg"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935936/rem-sao-go-tu-dong-thao-nguyen-jgjfpqkl_zs9bj4.jpg"
       ],
       "category_id": "c4",
       "variants": [
         {
-          "id": "v13",
-          "name": "Phụ kiện cơ bản",
+          "id": "7658d802-1f19-461a-bd21-4cbccf79cd53",
+          "name": "Rèm gỗ",
           "extra_price": 0,
           "stock": 50
-        },
-        {
-          "id": "v14",
-          "name": "Bộ điều khiển bổ sung",
-          "extra_price": 250000,
-          "stock": 20
         }
       ]
     },
     {
-      "id": "p8",
-      "name": "Rèm văn phòng SmartOffice",
-      "base_price": 1800000,
-      "description": "Chỉ cần vẫy tay hoặc chạm nhẹ, rèm sẽ tự động mở hoặc đóng. Thiết kế hiện đại, phù hợp với các gia đình có trẻ nhỏ hoặc người lớn tuổi, mang lại sự tiện nghi tối đa.",
+      "id": "a453",
+      "name": "Vách ngăn gỗ",
+      "base_price": 2300000,
+      "description": "<p><strong>Giá cơ bản:</strong> 2.300.000₫</p><p><strong>Mô tả:</strong><br>Vách ngăn gỗ trang trí, dùng phân chia không gian, chất liệu bền và thẩm mỹ cao.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935095/vach-ngan-to-ong_xrkwch.png\" alt=\"Vách ngăn gỗ\" width=\"512\" height=\"512\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"edb87dfb1b2342b976578a382302aafef\">1 — Stock: 0 — Giá thêm: 1₫</li></ul>",
       "images": [
-        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169185/1.2.3_bebndc.jpg"
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935095/vach-ngan-to-ong_xrkwch.png"
       ],
-      "category_id": "c5",
-      "variants": [
-        {
-          "id": "v15",
-          "name": "Size 1.5m x 2m",
-          "extra_price": 0,
-          "stock": 10
-        },
-        {
-          "id": "v16",
-          "name": "Chất liệu chống nắng",
-          "extra_price": 200000,
-          "stock": 5
-        }
-      ]
+      "category_id": "c1",
+      "variants": []
+    },
+    {
+      "id": "a456",
+      "name": "Rèm mành tự động",
+      "base_price": 1500000,
+      "description": "<p><strong>Giá cơ bản:</strong> 1.500.000₫</p><p><strong>Mô tả:</strong><br>Chất liệu mỏng nhẹ, tự động mở/đóng, thích hợp cho phòng khách hiện đại.</p><p><strong>Hình ảnh:</strong><br><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935686/rem-roman-tu-dong-cho-phong-khach-thao-nguyen-q0bo4fuw_aiq1ql.jpg\" alt=\"Rèm mành tự động\" width=\"600\" height=\"600\"></p><p><strong>Biến thể:</strong></p><ul><li data-list-item-id=\"e713280df51d9c4a5601aaca1e8bd5ea0\">1 — Stock: 0 — Giá thêm: 1₫</li></ul>",
+      "images": [
+        "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935686/rem-roman-tu-dong-cho-phong-khach-thao-nguyen-q0bo4fuw_aiq1ql.jpg"
+      ],
+      "category_id": "c1",
+      "variants": []
     }
   ],
   "blogs": [
     {
       "id": "b1",
       "title": "Cách chọn rèm cửa thông minh",
-      "content": "<h2>Hướng dẫn chọn rèm cửa thông minh phù hợp với gia đình bạn</h2>\n<p>Rèm cửa thông minh đang trở thành xu hướng trong các ngôi nhà hiện đại. Không chỉ giúp điều chỉnh ánh sáng, rèm còn mang lại sự tiện nghi, tiết kiệm năng lượng và bảo vệ nội thất.</p>\n<h3>1. Xác định nhu cầu sử dụng</h3>\n<ul>\n<li>Phòng khách: Nên chọn rèm tự động mở/đóng theo ánh sáng, hỗ trợ điều khiển từ xa.</li>\n<li>Phòng ngủ: Ưu tiên rèm chống nắng, động cơ êm để không ảnh hưởng giấc ngủ.</li>\n<li>Văn phòng: Chọn rèm lập lịch đóng mở, tiết kiệm điện và giảm chói sáng màn hình.</li>\n</ul>\n<h3>2. Chọn loại rèm</h3>\n<ul>\n<li>Rèm cuốn thông minh: Tiện lợi, dễ vệ sinh, phù hợp cửa sổ lớn.</li>\n<li>Rèm điều khiển từ xa: Tối ưu cho căn hộ cao cấp, phòng khách hoặc phòng họp.</li>\n<li>Rèm chống nắng tự động: Bảo vệ nội thất khỏi tia UV, thích hợp phòng hướng Tây hoặc có ánh nắng gay gắt.</li>\n</ul>\n<h3>3. Tính năng bổ sung</h3>\n<ul>\n<li>Cảm biến ánh sáng và nhiệt độ.</li>\n<li>Điều khiển qua app và remote.</li>\n<li>Hẹn giờ đóng mở tự động.</li>\n<li>Vật liệu chống bụi, dễ vệ sinh và bền bỉ.</li>\n</ul>\n<p><em>Chọn rèm cửa thông minh đúng cách sẽ nâng tầm không gian sống và bảo vệ ngôi nhà của bạn.</em></p>",
+      "content": "<h2>Hướng dẫn chọn rèm cửa thông minh phù hợp với gia đình bạn</h2><p>Rèm cửa thông minh đang trở thành xu hướng trong các ngôi nhà hiện đại. Không chỉ giúp điều chỉnh ánh sáng, rèm còn mang lại sự tiện nghi, tiết kiệm năng lượng và bảo vệ nội thất.</p><h3>1. Xác định nhu cầu sử dụng</h3><ul><li data-list-item-id=\"e4e3f418f0cfee815c8f098e1e15e161c\"><strong>Phòng khách:</strong> Nên chọn rèm tự động mở/đóng theo ánh sáng, hỗ trợ điều khiển từ xa.<br>Ví dụ: <strong>Rèm cuốn SmartRoll Pro</strong> với cảm biến ánh sáng tích hợp, tự động điều chỉnh nhiệt độ, vừa tiết kiệm điện vừa hiện đại.</li><li data-list-item-id=\"e246bfe987f170d116ec37a32b2155120\"><strong>Phòng ngủ:</strong> Ưu tiên rèm chống nắng, động cơ êm để không ảnh hưởng giấc ngủ.<br>Ví dụ: <strong>Rèm chống nắng AutoShade</strong> hoặc <strong>SunBlocker</strong>, kết nối với Google Home, Alexa, Apple HomeKit, chỉ cần giọng nói là điều khiển được.</li><li data-list-item-id=\"ed5b69250ce0c41e0b54682d7be5d792d\"><strong>Văn phòng:</strong> Chọn rèm lập lịch đóng mở, tiết kiệm điện và giảm chói sáng màn hình.<br>Ví dụ: <strong>Rèm thông minh văn phòng</strong> giúp tối ưu năng lượng và bảo vệ màn hình máy tính.</li></ul><h3>2. Chọn loại rèm</h3><ul><li data-list-item-id=\"ef83d01ec8e3d7643468aa46e35670093\"><strong>Rèm cuốn thông minh:</strong> Tiện lợi, dễ vệ sinh, phù hợp cửa sổ lớn.<br><strong>Sản phẩm gợi ý:</strong><ul><li class=\"ck-list-marker-bold\" data-list-item-id=\"ebabf283cb831982c2047ddc501dd71b1\"><strong>Rèm cuốn SmartRoll Pro</strong><ul><li data-list-item-id=\"ec14dafcecf46aaef8e4500176b971cdb\">Điều khiển qua remote hoặc app</li><li data-list-item-id=\"e947cb3980163ff80c17f1a5549af9a0b\">Cảm biến ánh sáng tích hợp, tự động điều chỉnh nhiệt độ</li><li data-list-item-id=\"ea7024d5d39389e213ef11a9c87d0790a\">Kích thước: 1m x 1.5m, 1.2m x 2m, màu xám</li><li data-list-item-id=\"e962803bee41e98e144cd672df72fd65b\">Giá: 1.500.000₫ – 1.700.000₫</li><li data-list-item-id=\"ed6505a41e6503e7f7717d7dae43b697a\"><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif\" alt=\"SmartRoll Pro\" width=\"900\" height=\"676\"></li></ul></li><li class=\"ck-list-marker-bold\" data-list-item-id=\"e6f91e58051ced4daf3fdee48380c552c\"><strong>Rèm cuốn EcoRoll</strong><ul><li data-list-item-id=\"e008bd3551724c1e8b67de3f9e130fe64\">Nhẹ, động cơ êm, chống nắng UV</li><li data-list-item-id=\"ef4f20ea7542871fbc0438a7c1cb30b08\">Có thể hẹn giờ đóng/mở</li><li data-list-item-id=\"effc223c8a0c166b9074f3fc53eefa0a4\">Giá: 1.300.000₫ – 1.450.000₫</li><li data-list-item-id=\"e876114f407c4a6fc070e945450308452\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935540/gia-rem-cau-vong_lyskov.jpg\" alt=\"EcoRoll\" width=\"650\" height=\"650\"></li></ul></li></ul></li><li data-list-item-id=\"e073385570804fb4f67d0442d4c47c612\"><strong>Rèm điều khiển từ xa:</strong> Phù hợp cửa sổ lớn, phòng khách hoặc phòng họp, có thể lập lịch và đồng bộ nhiều rèm cùng lúc.<br><strong>Sản phẩm gợi ý:</strong><ul><li data-list-item-id=\"e3f6f6bbfc3704e8a62ff26f82b649778\"><strong>RemoteCurtain</strong>: Pin năng lượng mặt trời, tự động sạc, lập lịch đóng/mở, tiết kiệm năng lượng.<ul><li data-list-item-id=\"e5a5bb919aad09914ef11e595f660173a\">Giá: 2.200.000₫ – 2.700.000₫</li><li data-list-item-id=\"ed5308d50f70bab89b388bd626d4e42da\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341539/rem-vai-cua-so-300x300_m4mx7o.png\" alt=\"RemoteCurtain\" width=\"300\" height=\"300\"></li></ul></li><li data-list-item-id=\"eb348ace6a1fdddfb64605365bcda801c\"><strong>SilentCurtain</strong>: Động cơ siêu êm, hỗ trợ app và remote, bảo hành 3 năm.<ul><li data-list-item-id=\"e9285da3a8e16db731a39cdb1269c5b82\">Giá: 2.500.000₫ – 3.100.000₫</li><li data-list-item-id=\"ed6e31d16bb7c30281e63a68ff4288db3\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169334/32_g7snsr.jpg\" alt=\"SilentCurtain\" width=\"720\" height=\"720\"></li></ul></li></ul></li><li data-list-item-id=\"e5ad6ff9c0b49ff4b08a00c29b6c174e0\"><strong>Rèm chống nắng tự động:</strong> Bảo vệ nội thất khỏi tia UV, thích hợp phòng hướng Tây hoặc có ánh nắng gay gắt.<br><strong>Sản phẩm gợi ý:</strong><ul><li data-list-item-id=\"e10eb5585d0b76d15265f6fee2eca2ed1\"><strong>AutoShade</strong>: Kết nối nhà thông minh, điều khiển giọng nói, đa dạng màu sắc<ul><li data-list-item-id=\"e458905319390f4fbb3fc568142ef9211\">Giá: 1.800.000₫ – 2.100.000₫</li><li data-list-item-id=\"eeb69668dcdea037ecd0231a75e19404e\"><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl4.1_dbspga.avif\" alt=\"AutoShade\" width=\"900\" height=\"900\"></li></ul></li><li data-list-item-id=\"e3ce810a5aa7b370774a91ff2b90a003e\"><strong>SunBlocker</strong>: Cảm biến ánh sáng, tự động đóng/mở, chống bụi, dễ vệ sinh<ul><li data-list-item-id=\"eec102f7256dfaeff69b5b52b6c5b2a53\">Giá: 2.000.000₫</li><li data-list-item-id=\"e82f6b5dbd69a4a3a1e23f1917c30d3e7\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765167859/1-1-1-1_n1ij63.jpg\" alt=\"SunBlocker\" width=\"731\" height=\"731\"></li></ul></li></ul></li></ul><h3>3. Tính năng bổ sung cần lưu ý</h3><ul><li data-list-item-id=\"e63c7f665f6fbb78da4ba54550d0d2d1c\">Cảm biến ánh sáng và nhiệt độ</li><li data-list-item-id=\"eb39b27f1fb1656614540a4436a15f3a7\">Điều khiển qua app và remote</li><li data-list-item-id=\"e0ab3a7e01169c12e33833649bd02e1fa\">Hẹn giờ đóng mở tự động</li><li data-list-item-id=\"e40870621a94d0c71d20b0fbfe6bf7638\">Vật liệu chống bụi, dễ vệ sinh và bền bỉ</li></ul><blockquote><p><strong>Mẹo:</strong> Chọn rèm cửa thông minh đúng cách sẽ nâng tầm không gian sống và bảo vệ ngôi nhà của bạn</p></blockquote>",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif"
       ],
@@ -234,7 +226,7 @@
     {
       "id": "b2",
       "title": "Lợi ích của rèm tự động",
-      "content": "<h2>Lợi ích khi sử dụng rèm tự động trong gia đình và văn phòng</h2>\n<p>Rèm tự động mang lại nhiều tiện ích mà các loại rèm truyền thống không có:</p>\n<h3>1. Tiết kiệm năng lượng</h3>\n<ul>\n<li>Đóng mở tự động giúp giảm sử dụng điều hòa và đèn chiếu sáng.</li>\n<li>Điều chỉnh ánh sáng theo cường độ bên ngoài, tối ưu hóa nhiệt độ phòng.</li>\n</ul>\n<h3>2. Bảo vệ nội thất</h3>\n<ul>\n<li>Chống tia UV, giữ màu sắc đồ nội thất lâu phai.</li>\n<li>Ngăn bụi và ẩm mốc cho không gian sống và làm việc.</li>\n</ul>\n<h3>3. Tiện nghi và an toàn</h3>\n<ul>\n<li>Điều khiển từ xa qua app hoặc remote.</li>\n<li>Tạo lịch đóng mở tự động, đặc biệt hữu ích khi đi vắng.</li>\n<li>Động cơ êm, không gây tiếng ồn, an toàn cho trẻ nhỏ và người già.</li>\n</ul>\n<p><em>Rèm tự động là giải pháp thông minh, tiết kiệm và tiện nghi cho mọi không gian.</em></p>",
+      "content": "<p>Rèm tự động mang lại nhiều tiện ích mà các loại rèm truyền thống không có:</p><h3>1. Tiết kiệm năng lượng</h3><ul><li data-list-item-id=\"e1efcf77382dc9fa7032a6ee25b2cb032\">Đóng mở tự động giúp giảm sử dụng điều hòa và đèn chiếu sáng</li><li data-list-item-id=\"e34b9a029ab60b04b1217d1512ee179a9\">Điều chỉnh ánh sáng theo cường độ bên ngoài, tối ưu hóa nhiệt độ phòng</li><li data-list-item-id=\"e3cd9dfe1b58b9388c4f3169476b35ffa\">Ví dụ: <strong>SmartRoll Pro</strong> và <strong>EcoRoll</strong> có cảm biến ánh sáng, tự động đóng/mở giúp giảm điện năng đến 20%</li></ul><h3>2. Bảo vệ nội thất</h3><ul><li data-list-item-id=\"e6e44c825f93b55e0e773854314275f70\">Chống tia UV, giữ màu sắc đồ nội thất lâu phai</li><li data-list-item-id=\"ee362f8a4925db41122888370331dcf7b\">Ngăn bụi và ẩm mốc cho không gian sống và làm việc</li><li data-list-item-id=\"efabeb22a2b308d8c9a3fcdd2cf06f67b\">Sản phẩm <strong>SunBlocker</strong> hoặc <strong>AutoShade</strong> lý tưởng cho các phòng có nhiều ánh nắng trực tiếp</li></ul><h3>3. Tiện nghi và an toàn</h3><ul><li data-list-item-id=\"eb394076e883d521be1230bf62c916746\">Điều khiển từ xa qua app hoặc remote</li><li data-list-item-id=\"efcf902d18978f7164244b288d12d17ce\">Tạo lịch đóng mở tự động, hữu ích khi đi vắng</li><li data-list-item-id=\"ef3226e2dc4545bcb52beb50ad4d32ec3\">Động cơ êm, không gây tiếng ồn, an toàn cho trẻ nhỏ và người già</li><li data-list-item-id=\"eae07f20cd03aa4b699f34dd01a799bc6\">Sản phẩm: <strong>RemoteCurtain</strong>, <strong>SilentCurtain</strong></li></ul><blockquote><p><strong>Kết luận:</strong> Rèm tự động là giải pháp thông minh, tiết kiệm và tiện nghi cho mọi không gian.</p></blockquote>",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl4.1_dbspga.avif",
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162533/bsl5.1_c3ndu2.avif"
@@ -244,7 +236,7 @@
     {
       "id": "b3",
       "title": "Các loại rèm thông minh phổ biến",
-      "content": "<h2>Khám phá các loại rèm thông minh phổ biến trên thị trường</h2>\n<p>Rèm thông minh hiện nay có nhiều loại, mỗi loại có ưu điểm riêng phù hợp với nhu cầu:</p>\n<h3>1. Rèm cuốn thông minh</h3>\n<ul>\n<li>Dễ vệ sinh, vận hành êm ái.</li>\n<li>Điều khiển qua app, tự động đóng mở theo ánh sáng.</li>\n</ul>\n<h3>2. Rèm điều khiển từ xa</h3>\n<ul>\n<li>Phù hợp cửa sổ lớn hoặc phòng khách, phòng họp.</li>\n<li>Có thể lập lịch và đồng bộ nhiều rèm cùng lúc.</li>\n</ul>\n<h3>3. Rèm chống nắng tự động</h3>\n<ul>\n<li>3-4 lớp chống tia UV, bảo vệ nội thất.</li>\n<li>Động cơ êm, tích hợp cảm biến nhiệt độ.</li>\n</ul>\n<h3>4. Rèm thông minh văn phòng</h3>\n<ul>\n<li>Tự động đóng mở theo giờ làm việc.</li>\n<li>Tiết kiệm điện năng, bảo vệ màn hình máy tính khỏi ánh sáng trực tiếp.</li>\n</ul>\n<p><em>Chọn loại rèm phù hợp giúp tối ưu tiện nghi, bảo vệ không gian và tiết kiệm năng lượng.</em></p>",
+      "content": "<h2>Khám phá các loại rèm thông minh phổ biến trên thị trường</h2><p>Rèm thông minh hiện nay có nhiều loại, mỗi loại có ưu điểm riêng phù hợp với nhu cầu sử dụng:</p><h3>1. Rèm cuốn thông minh</h3><ul><li data-list-item-id=\"e1f1fc85a399dd6c32f085077bfb23c10\"><strong>Đặc điểm:</strong> Dễ vệ sinh, vận hành êm ái, điều khiển qua app, tự động đóng mở theo ánh sáng.</li><li class=\"ck-list-marker-bold\" data-list-item-id=\"e1699bf8552c8019a6d0384a8d521f7d3\"><strong>Sản phẩm gợi ý:</strong><ul><li data-list-item-id=\"e0655ebb5ec91332274f0f6b904e78bdb\"><strong>SmartRoll Pro</strong>: Cảm biến ánh sáng tích hợp, điều khiển từ app hoặc remote, giá từ 1.500.000₫<ul><li data-list-item-id=\"e8a5bbb53f8b43df938a82d763c7230ef\"><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162534/bsl6.1_y7fmiy.avif\" alt=\"SmartRoll Pro\" width=\"900\" height=\"676\"></li></ul></li><li data-list-item-id=\"e88614255acebc31a6bc8bbb9862f669b\"><strong>EcoRoll</strong>: Nhẹ, động cơ êm, chống nắng UV, giá từ 1.300.000₫<ul><li data-list-item-id=\"e0134d2df6ea25f71ac90332e7baa1af9\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765935540/gia-rem-cau-vong_lyskov.jpg\" alt=\"EcoRoll\" width=\"650\" height=\"650\"></li></ul></li></ul></li></ul><h3>2. Rèm điều khiển từ xa</h3><ul><li data-list-item-id=\"e4e79529708352ae888fabce8f26173b2\"><strong>Đặc điểm:</strong> Lập lịch, đồng bộ nhiều rèm cùng lúc, phù hợp phòng khách hoặc phòng họp.</li><li class=\"ck-list-marker-bold\" data-list-item-id=\"e0f041a9be15de60c5a4e622813cb58e6\"><strong>Sản phẩm gợi ý:</strong><ul><li data-list-item-id=\"e55f9f9c6349693a622b50a91689bf1c9\"><strong>RemoteCurtain</strong>: Pin năng lượng mặt trời, lập lịch đóng/mở, giá 2.200.000₫ – 2.700.000₫<ul><li data-list-item-id=\"e85372d4125a6a000644cbada7d6efdb9\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341539/rem-vai-cua-so-300x300_m4mx7o.png\" alt=\"RemoteCurtain\" width=\"300\" height=\"300\"></li></ul></li><li data-list-item-id=\"e69e7b4be286920724067908c2a6d2fc8\"><strong>SilentCurtain</strong>: Động cơ siêu êm, hỗ trợ app và remote, bảo hành 3 năm, giá 2.500.000₫ – 3.100.000₫<ul><li data-list-item-id=\"e8388a1300e6e740579c141662e14a128\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765169334/32_g7snsr.jpg\" alt=\"SilentCurtain\" width=\"720\" height=\"720\"></li></ul></li></ul></li></ul><h3>3. Rèm chống nắng tự động</h3><ul><li data-list-item-id=\"e61a5bbb30c55902b3d7c56d783a6e26c\"><strong>Đặc điểm:</strong> 3–4 lớp chống tia UV, bảo vệ nội thất, tích hợp cảm biến nhiệt độ.</li><li class=\"ck-list-marker-bold\" data-list-item-id=\"e2db8a9e61305d13c7f8cac21cb933677\"><strong>Sản phẩm gợi ý:</strong><ul><li data-list-item-id=\"ef337b80c1c37c2155dfaf27fa7c19e32\"><strong>AutoShade</strong>: Kết nối nhà thông minh, điều khiển giọng nói, giá 1.800.000₫ – 2.100.000₫<ul><li data-list-item-id=\"eb173b398c2f279ea34489d9eb5df20e6\"><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162531/bsl4.1_dbspga.avif\" alt=\"AutoShade\" width=\"900\" height=\"900\"></li></ul></li><li data-list-item-id=\"ed5ebad577a7831b198b3597158b177da\"><strong>SunBlocker</strong>: Cảm biến ánh sáng, tự động đóng/mở, chống bụi, dễ vệ sinh, giá 2.000.000₫<ul><li data-list-item-id=\"ec5d5fed29bc785d4f1dae4c9414857bf\"><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765167859/1-1-1-1_n1ij63.jpg\" alt=\"SunBlocker\" width=\"731\" height=\"731\"></li></ul></li></ul></li></ul><blockquote><p><strong>Lời khuyên:</strong> Lựa chọn rèm phù hợp giúp tối ưu tiện nghi, bảo vệ không gian và tiết kiệm năng lượng.</p></blockquote>",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162533/bsl5.1_c3ndu2.avif"
       ],
@@ -253,7 +245,7 @@
     {
       "id": "b4",
       "title": "Hướng dẫn lắp đặt rèm thông minh",
-      "content": "<h2>Hướng dẫn chi tiết lắp đặt rèm thông minh tại nhà</h2>\n<p>Lắp đặt rèm thông minh không quá phức tạp nếu bạn làm theo hướng dẫn sau:</p>\n<h3>1. Chuẩn bị dụng cụ</h3>\n<ul>\n<li>Máy khoan, vít, thước đo, bút đánh dấu.</li>\n<li>Rèm thông minh kèm bộ động cơ và bộ điều khiển.</li>\n</ul>\n<h3>2. Đo và đánh dấu vị trí lắp đặt</h3>\n<ul>\n<li>Đo chiều rộng và cao của cửa sổ.</li>\n<li>Đánh dấu vị trí giá treo rèm để đảm bảo cân đối.</li>\n</ul>\n<h3>3. Lắp giá treo và động cơ</h3>\n<ul>\n<li>Bắt vít giá treo chắc chắn.</li>\n<li>Lắp động cơ và kết nối với bộ điều khiển.</li>\n</ul>\n<h3>4. Kết nối app và kiểm tra</h3>\n<ul>\n<li>Cài app chính hãng.</li>\n<li>Kết nối rèm với Wi-Fi hoặc Bluetooth.</li>\n<li>Kiểm tra vận hành đóng mở, lập lịch, cảm biến ánh sáng.</li>\n</ul>\n<p><em>Thực hiện đúng hướng dẫn giúp rèm vận hành êm ái, an toàn và bền bỉ.</em></p>",
+      "content": "<p><img src=\"https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162451/F%C3%96NSTERBLAD5_fz7p33.avif\" alt=\"Banner\" width=\"900\" height=\"900\"></p><h2>Hướng dẫn chi tiết lắp đặt rèm thông minh tại nhà</h2><p>Lắp đặt rèm thông minh không quá phức tạp nếu bạn làm theo các bước sau:</p><h3>1. Chuẩn bị dụng cụ</h3><ul><li data-list-item-id=\"eaf247c2490b63796fecd40f0dd1cd75f\">Máy khoan, vít, thước đo, bút đánh dấu</li><li data-list-item-id=\"e414d00f00b538e2cd0a4b80c193f7db0\">Rèm thông minh kèm bộ động cơ và bộ điều khiển</li></ul><h3>2. Đo và đánh dấu vị trí lắp đặt</h3><ul><li data-list-item-id=\"e4cf00256977c2b5cde009a0be7e88f5e\">Đo chiều rộng và cao của cửa sổ</li><li data-list-item-id=\"e7164497114b5b35daef2cecbba2c8b9b\">Đánh dấu vị trí giá treo để đảm bảo cân đối</li></ul><h3>3. Lắp giá treo và động cơ</h3><ul><li data-list-item-id=\"eb7f288cd9bb15bca23ae7d195f8cca6e\">Bắt vít giá treo chắc chắn</li><li data-list-item-id=\"e39363ac68e20f7001e0904dc05720af7\">Lắp động cơ và kết nối với bộ điều khiển</li></ul><h3>4. Kết nối app và kiểm tra</h3><ul><li data-list-item-id=\"ecd4ad90ae7b846f6c4a3968f7a51e957\">Cài app chính hãng</li><li data-list-item-id=\"ead8ed1e4722114d9eaa2c2e218f04a4f\">Kết nối rèm với Wi-Fi hoặc Bluetooth</li><li data-list-item-id=\"e536241495fca27cc3d861832edc2a841\">Kiểm tra vận hành đóng/mở, lập lịch, cảm biến ánh sáng</li></ul><blockquote><p><strong>Lưu ý:</strong> Thực hiện đúng hướng dẫn giúp rèm vận hành êm ái, an toàn và bền bỉ.</p></blockquote>",
       "images": [
         "https://res.cloudinary.com/dyxyhg3n2/image/upload/v1765162451/F%C3%96NSTERBLAD5_fz7p33.avif"
       ],
@@ -262,7 +254,7 @@
     {
       "id": "b5",
       "title": "Bảo dưỡng rèm thông minh định kỳ",
-      "content": "<h2>Bảo dưỡng rèm thông minh để kéo dài tuổi thọ</h2>\n<p>Để rèm thông minh luôn hoạt động hiệu quả, cần thực hiện bảo dưỡng định kỳ:</p>\n<h3>1. Vệ sinh bề mặt rèm</h3>\n<ul>\n<li>Dùng khăn mềm lau bụi, không dùng hóa chất mạnh.</li>\n<li>Kiểm tra vết bẩn và xử lý kịp thời để tránh ăn mòn vải.</li>\n</ul>\n<h3>2. Kiểm tra động cơ và bộ điều khiển</h3>\n<ul>\n<li>Thường xuyên kiểm tra kết nối Wi-Fi, pin remote.</li>\n<li>Đảm bảo động cơ vận hành êm và không bị kẹt.</li>\n</ul>\n<h3>3. Cập nhật phần mềm</h3>\n<ul>\n<li>Cập nhật app và firmware mới để tối ưu hiệu suất và bảo mật.</li>\n</ul>\n<h3>4. Hướng dẫn sử dụng đúng</h3>\n<ul>\n<li>Tránh kéo rèm bằng tay khi động cơ đang vận hành.</li>\n<li>Không để vật nặng chạm vào bề mặt rèm.</li>\n</ul>\n<p><em>Bảo dưỡng đúng cách giúp rèm hoạt động bền bỉ, tiết kiệm chi phí sửa chữa và tăng tiện nghi sử dụng.</em></p>",
+      "content": "<p><img src=\"https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341413/rem-vai-cua-so-600x696_qlcege.webp\" alt=\"Banner\" width=\"600\" height=\"696\"></p><h2>Bảo dưỡng rèm thông minh để kéo dài tuổi thọ</h2><p>Để rèm thông minh luôn hoạt động hiệu quả, cần thực hiện bảo dưỡng định kỳ:</p><h3>1. Vệ sinh bề mặt rèm</h3><ul><li data-list-item-id=\"e3850b0c9993a92f646b5ec9d06f1e18a\">Dùng khăn mềm lau bụi, không dùng hóa chất mạnh</li><li data-list-item-id=\"eded407048baa857dad60e78908d32293\">Kiểm tra vết bẩn và xử lý kịp thời để tránh ăn mòn vải</li></ul><h3>2. Kiểm tra động cơ và bộ điều khiển</h3><ul><li data-list-item-id=\"e09d84b1bd789ac641bd166e548be1c9a\">Thường xuyên kiểm tra kết nối Wi-Fi, pin remote</li><li data-list-item-id=\"e199f8952d1448eeaf99e9001da7e264e\">Đảm bảo động cơ vận hành êm và không bị kẹt</li></ul><h3>3. Cập nhật phần mềm</h3><ul><li data-list-item-id=\"e057be7a03cedbc6ed29a1224502240f6\">Cập nhật app và firmware mới để tối ưu hiệu suất và bảo mật</li></ul><h3>4. Hướng dẫn sử dụng đúng</h3><ul><li data-list-item-id=\"ed1eff4511f4aa44b3e7aed7c06642e3d\">Tránh kéo rèm bằng tay khi động cơ đang vận hành</li><li data-list-item-id=\"e6ff76d2060dafc574cf4558cfb823013\">Không để vật nặng chạm vào bề mặt rèm</li></ul><blockquote><p><strong>Kết luận:</strong> Bảo dưỡng đúng cách giúp rèm hoạt động bền bỉ, tiết kiệm chi phí sửa chữa và tăng tiện nghi sử dụng.</p></blockquote>",
       "images": [
         "https://res.cloudinary.com/du1mhz6z4/image/upload/v1765341413/rem-vai-cua-so-600x696_qlcege.webp"
       ],
@@ -311,23 +303,12 @@
       "password": "123456"
     }
   ],
-  "cart_items": [
-    {
-      "quantity": 1,
-      "id": "ci2"
-    },
-    {
-      "id": "ci3",
-      "user_id": "u3",
-      "product_id": "p7",
-      "variant_id": "v12",
-      "quantity": 1
-    }
-  ],
+  "cart_items": [],
   "orders": [
     {
       "id": "o1",
       "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
       "total_price": 6200000,
       "status": "completed",
       "created_at": "2025-12-10 14:32:00"
@@ -335,20 +316,15 @@
     {
       "id": "o2",
       "user_id": "u2",
+      "user_name": "Nguyễn Văn A",
       "total_price": 3500000,
       "status": "completed",
       "created_at": "2025-12-10 15:00:00"
     },
     {
-      "id": "o3",
-      "user_id": "u3",
-      "total_price": 4100000,
-      "status": "pending",
-      "created_at": "2025-12-11 09:00:00"
-    },
-    {
       "id": "o4",
       "user_id": "u4",
+      "user_name": "Lê Thị C",
       "total_price": 2800000,
       "status": "completed",
       "created_at": "2025-12-11 10:30:00"
@@ -356,6 +332,7 @@
     {
       "id": "o5",
       "user_id": "u5",
+      "user_name": "Phạm Văn D",
       "total_price": 5600000,
       "status": "processing",
       "created_at": "2025-12-11 11:00:00"
@@ -363,91 +340,173 @@
     {
       "id": "o6",
       "user_id": "u2",
+      "user_name": "Nguyễn Văn A",
       "total_price": 2700000,
       "status": "completed",
       "created_at": "2025-12-11 12:00:00"
+    },
+    {
+      "id": "a336",
+      "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
+      "total_price": 3740000,
+      "status": "pending",
+      "created_at": "2025-12-18T02:40:20.970Z"
+    },
+    {
+      "id": "8ada",
+      "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
+      "total_price": 1650000,
+      "status": "pending",
+      "created_at": "2025-12-18T03:06:14.482Z"
+    },
+    {
+      "id": "0e61",
+      "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
+      "total_price": 26.4,
+      "status": "pending",
+      "created_at": "2025-12-18T03:23:49.594Z"
+    },
+    {
+      "id": "47b8",
+      "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
+      "total_price": 26.4,
+      "status": "pending",
+      "created_at": "2025-12-18T03:30:06.195Z"
+    },
+    {
+      "id": "9b28",
+      "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
+      "total_price": 2860000,
+      "status": "pending",
+      "created_at": "2025-12-18T04:28:10.745Z"
+    },
+    {
+      "id": "861c",
+      "user_id": "u1",
+      "user_name": "Nguyễn Hoàng Khang",
+      "total_price": 2860000,
+      "status": "pending",
+      "created_at": "2025-12-18T04:28:58.673Z"
     }
   ],
   "order_items": [
     {
-      "id": "oi1",
       "order_id": "o1",
       "product_id": "p1",
+      "product_name": "Rèm cuốn SmartRoll Pro",
       "variant_id": "v2",
+      "variant_name": "Size 1.2m x 2m",
       "quantity": 1,
       "price": 1700000
     },
     {
-      "id": "oi2",
       "order_id": "o1",
-      "product_id": "p3",
-      "variant_id": "v6",
-      "quantity": 2,
-      "price": 2700000
-    },
-    {
-      "id": "oi3",
-      "order_id": "o2",
       "product_id": "p2",
-      "variant_id": "v5",
-      "quantity": 1,
-      "price": 1450000
-    },
-    {
-      "id": "oi4",
-      "order_id": "o2",
-      "product_id": "p4",
-      "variant_id": "v8",
-      "quantity": 1,
-      "price": 2050000
-    },
-    {
-      "id": "oi5",
-      "order_id": "o3",
-      "product_id": "p5",
-      "variant_id": "v10",
-      "quantity": 1,
-      "price": 2700000
-    },
-    {
-      "id": "oi6",
-      "order_id": "o3",
-      "product_id": "p7",
-      "variant_id": "v14",
-      "quantity": 1,
-      "price": 1400000
-    },
-    {
-      "id": "oi7",
-      "order_id": "o4",
-      "product_id": "p1",
+      "product_name": "Rèm cuốn SmartRoll Pro",
       "variant_id": "v1",
+      "variant_name": "Size 1m x 1.5m",
+      "quantity": 2,
+      "price": 1500000
+    },
+    {
+      "order_id": "o2",
+      "product_id": "p3",
+      "product_name": "Rèm cuốn SmartRoll Pro",
+      "variant_id": "v3",
+      "variant_name": "Màu xám",
+      "quantity": 1,
+      "price": 200000
+    },
+    {
+      "order_id": "o3",
+      "product_id": "p4",
+      "product_name": "Rèm cuốn SmartRoll Pro",
+      "variant_id": "v1",
+      "variant_name": "Size 1m x 1.5m",
+      "quantity": 3,
+      "price": 1500000
+    },
+    {
+      "order_id": "o4",
+      "product_id": "p5",
+      "product_name": "Rèm cuốn SmartRoll Pro",
+      "variant_id": "v2",
+      "variant_name": "Size 1.2m x 2m",
+      "quantity": 2,
+      "price": 1700000
+    },
+    {
+      "order_id": "o5",
+      "product_id": "p6",
+      "product_name": "Rèm cuốn SmartRoll Pro",
+      "variant_id": "v3",
+      "variant_name": "Màu xám",
+      "quantity": 1,
+      "price": 200000
+    },
+    {
+      "order_id": "o6",
+      "product_id": "p7",
+      "product_name": "Rèm cuốn SmartRoll Pro",
+      "variant_id": "v1",
+      "variant_name": "Size 1m x 1.5m",
+      "quantity": 2,
+      "price": 1500000
+    },
+    {
+      "id": "50ef",
+      "order_id": "8ada",
+      "product_id": "p1",
+      "product_name": "Rèm cuốn SmartRoll Pro",
+      "variant_id": "v1",
+      "variant_name": "Size 1m x 1.5m",
       "quantity": 1,
       "price": 1500000
     },
     {
-      "id": "oi8",
-      "order_id": "o4",
-      "product_id": "p8",
-      "variant_id": "v15",
+      "id": "d933",
+      "order_id": "0e61",
+      "product_id": "a453",
+      "product_name": "sp1",
+      "variant_id": "1c2ae791-acdb-44b1-a87a-8b4f92914945",
+      "variant_name": "1",
       "quantity": 1,
+      "price": 24
+    },
+    {
+      "id": "0dfc",
+      "order_id": "47b8",
+      "product_id": "a453",
+      "product_name": "sp1",
+      "variant_id": "1c2ae791-acdb-44b1-a87a-8b4f92914945",
+      "variant_name": "1",
+      "quantity": 1,
+      "price": 24
+    },
+    {
+      "id": "87e1",
+      "order_id": "9b28",
+      "product_id": "p2",
+      "product_name": "Rèm cuốn EcoRoll",
+      "variant_id": "v4",
+      "variant_name": "Size 0.8m x 1.5m",
+      "quantity": 2,
       "price": 1300000
     },
     {
-      "id": "oi9",
-      "order_id": "o5",
-      "product_id": "p6",
-      "variant_id": "v12",
+      "id": "d3d7",
+      "order_id": "861c",
+      "product_id": "p2",
+      "product_name": "Rèm cuốn EcoRoll",
+      "variant_id": "v4",
+      "variant_name": "Size 0.8m x 1.5m",
       "quantity": 2,
-      "price": 6200000
-    },
-    {
-      "id": "oi10",
-      "order_id": "o6",
-      "product_id": "p3",
-      "variant_id": "v7",
-      "quantity": 1,
-      "price": 2100000
+      "price": 1300000
     }
   ]
 }

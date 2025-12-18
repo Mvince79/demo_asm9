@@ -11,7 +11,7 @@
           />
           <div class="d-flex mt-2 gap-2">
             <img
-              v-for="(img, idx) in product.images"
+              v-for="(img, idx) in product.images || []"
               :key="idx"
               :src="img"
               class="rounded border"
@@ -32,7 +32,7 @@
             <label class="fw-semibold">Chọn biến thể:</label>
             <div class="d-flex gap-2 mt-2 flex-wrap">
               <button
-                v-for="v in product.variants"
+                v-for="v in product.variants || []"
                 :key="v.id"
                 type="button"
                 class="variant-btn"
@@ -40,7 +40,7 @@
                 :disabled="v.stock === 0"
                 @click="selectedVariantId = v.id"
               >
-                {{ v.name }} (+{{ formatMoney(v.extra_price) }})<br/>
+                {{ v.name }} (+{{ formatMoney(v.extra_price || 0) }})<br />
                 <small class="text-muted">còn {{ v.stock }}</small>
               </button>
             </div>
@@ -60,8 +60,12 @@
           </div>
 
           <!-- Thêm vào giỏ hàng -->
-          <button class="btn btn-primary btn-lg mt-3" @click="addToCart">
-            Thêm vào giỏ hàng
+          <button
+            class="btn btn-primary btn-lg mt-3"
+            :disabled="!selectedVariant || selectedVariant.stock === 0"
+            @click="addToCart"
+          >
+            {{ selectedVariant?.stock === 0 ? "Hết hàng" : "Thêm vào giỏ hàng" }}
           </button>
         </div>
       </div>
@@ -69,7 +73,7 @@
       <!-- Mô tả sản phẩm -->
       <div class="mt-5">
         <h5 class="fw-bold mb-3">Mô tả sản phẩm</h5>
-        <p class="text-muted">{{ product.description || "Không có mô tả chi tiết" }}</p>
+        <div class="text-muted" v-html="product.description || 'Không có mô tả chi tiết'"></div>
       </div>
 
       <!-- Sản phẩm liên quan -->
@@ -85,11 +89,8 @@
               />
               <div class="card-body p-2">
                 <h6 class="card-title">{{ rp.name }}</h6>
-                <p class="text-primary fw-bold mb-0">{{ formatMoney(rp.base_price) }}</p>
-                <button
-                  class="btn btn-sm btn-outline-primary w-100 mt-2"
-                  @click="goToProduct(rp.id)"
-                >
+                <p class="text-primary fw-bold mb-0">{{ formatMoney(rp.base_price || 0) }}</p>
+                <button class="btn btn-sm btn-outline-primary w-100 mt-2" @click="goToProduct(rp.id)">
                   Xem chi tiết
                 </button>
               </div>
@@ -130,21 +131,22 @@ onMounted(async () => {
   try {
     const id = route.params.id;
     const resProduct = await productService.get(id);
-    product.value = resProduct.data;
-    selectedImage.value = product.value.images?.[0] || "";
+    product.value = resProduct.data || null;
+    selectedImage.value = product.value?.images?.[0] || "";
 
     const resCategories = await categoryService.list();
-    categories.value = resCategories.data.categories || resCategories.data;
+    categories.value = resCategories.data?.categories || resCategories.data || [];
 
-    if (product.value.variants?.length) {
+    if (product.value?.variants?.length) {
       selectedVariantId.value = product.value.variants[0].id;
       quantity.value = 1;
     }
 
     // Related products
     const allProducts = await productService.list();
-    relatedProducts.value = allProducts.data.products.filter(
-      (p) => p.category_id === product.value.category_id && p.id !== product.value.id
+    const allItems = allProducts.data?.products || [];
+    relatedProducts.value = allItems.filter(
+      (p) => p.category_id === product.value?.category_id && p.id !== product.value?.id
     );
   } catch (err) {
     console.error("Load product error:", err);
@@ -152,21 +154,16 @@ onMounted(async () => {
 });
 
 // Helpers
-const getCategoryName = (id) => {
-  const cat = categories.value.find((c) => c.id === id);
-  return cat ? cat.name : "";
-};
-
+const getCategoryName = (id) => categories.value.find((c) => c.id === id)?.name || "";
 const formatMoney = (v) =>
-  new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(v);
+  new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(v || 0);
 
 const selectedVariant = computed(() =>
   product.value?.variants?.find((v) => v.id === selectedVariantId.value)
 );
 
 const totalPrice = computed(() => {
-  if (!product.value) return 0;
-  const base = product.value.base_price || 0;
+  const base = product.value?.base_price || 0;
   const extra = selectedVariant.value?.extra_price || 0;
   return (base + extra) * quantity.value;
 });
@@ -185,14 +182,22 @@ const addToCart = async () => {
   if (!selectedVariant.value) return;
   try {
     const resCart = await cartService.list(userId);
-    const cartItems = resCart.data.cart_items || resCart.data || [];
+    const cartItems = resCart.data?.cart_items || resCart.data || [];
 
     const existItem = cartItems.find(
-      (ci) => ci.product_id === product.value.id && ci.variant_id === selectedVariant.value.id
+      (ci) =>
+        ci.product_id === product.value.id &&
+        ci.variant_id === selectedVariant.value.id
     );
 
+    const maxStock = selectedVariant.value.stock;
     if (existItem) {
-      await cartService.update(existItem.id, { quantity: existItem.quantity + quantity.value });
+      const newQty = existItem.quantity + quantity.value;
+      if (newQty > maxStock) {
+        alert(`Chỉ còn ${maxStock} sản phẩm trong kho`);
+        return;
+      }
+      await cartService.update(existItem.id, { quantity: newQty });
     } else {
       await cartService.add({
         user_id: userId,
@@ -205,7 +210,7 @@ const addToCart = async () => {
     alert(`Đã thêm ${quantity.value} sản phẩm vào giỏ hàng`);
     router.push("/cart");
   } catch (err) {
-    console.error("Add to cart error:", err.response || err);
+    console.error("Add to cart error:", err?.response || err);
     alert("Thêm giỏ hàng thất bại!");
   }
 };

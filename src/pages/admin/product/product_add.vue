@@ -103,6 +103,86 @@
         </div>
       </div>
 
+      <!-- VARIANTS -->
+      <div class="mt-5">
+        <h5 class="fw-bold mb-3">Biến thể sản phẩm</h5>
+
+        <table class="table table-bordered align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Tên biến thể</th>
+              <th>Giá cộng thêm</th>
+              <th>Tồn kho</th>
+              <th width="120">Hành động</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr v-for="v in variants" :key="v.id">
+              <td>{{ v.name }}</td>
+              <td>{{ formatMoney(v.extra_price) }}</td>
+              <td>{{ v.stock }}</td>
+              <td>
+                <button
+                  class="btn btn-sm btn-outline-danger"
+                  @click="removeVariant(v.id)"
+                  type="button"
+                >
+                  Xóa
+                </button>
+              </td>
+            </tr>
+
+            <tr v-if="!variants.length">
+              <td colspan="4" class="text-center text-muted">
+                Chưa có biến thể
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- ADD VARIANT -->
+        <div class="card p-3 mt-3">
+          <h6 class="fw-semibold mb-3">Thêm biến thể</h6>
+
+          <div class="row g-2">
+            <div class="col-md-4">
+              <input
+                v-model="variantForm.name"
+                class="form-control"
+                placeholder="Tên biến thể"
+              />
+            </div>
+
+            <div class="col-md-4">
+              <input
+                v-model.number="variantForm.extra_price"
+                type="number"
+                class="form-control"
+                placeholder="Giá cộng thêm"
+              />
+            </div>
+
+            <div class="col-md-4">
+              <input
+                v-model.number="variantForm.stock"
+                type="number"
+                class="form-control"
+                placeholder="Tồn kho"
+              />
+            </div>
+          </div>
+
+          <button
+            class="btn btn-success btn-sm mt-3"
+            @click="addVariant"
+            type="button"
+          >
+            Thêm biến thể
+          </button>
+        </div>
+      </div>
+
       <div class="text-center mt-4">
         <button
           type="submit"
@@ -144,6 +224,14 @@ const files = ref([]);
 const isDragging = ref(false);
 const fileInputRef = ref(null);
 
+const variantForm = ref({
+  name: "",
+  extra_price: 0,
+  stock: 0,
+});
+
+const variants = ref([]);
+
 // Load danh mục từ JSON
 onMounted(async () => {
   try {
@@ -181,6 +269,24 @@ const addFiles = (newFiles) => {
   );
 };
 
+const addVariant = () => {
+  if (!variantForm.value.name) {
+    alert("Nhập tên biến thể");
+    return;
+  }
+
+  variants.value.push({
+    id: crypto.randomUUID(),
+    ...variantForm.value,
+  });
+
+  variantForm.value = { name: "", extra_price: 0, stock: 0 };
+};
+
+const removeVariant = (id) => {
+  variants.value = variants.value.filter((v) => v.id !== id);
+};
+
 const removeFile = (i) => {
   URL.revokeObjectURL(files.value[i].previewUrl);
   files.value.splice(i, 1);
@@ -200,11 +306,18 @@ const startUpload = async () => {
   return await Promise.all(files.value.map((f) => uploadToCloudinary(f.file)));
 };
 
+const formatMoney = (v) =>
+  new Intl.NumberFormat("vi-VN", {
+    style: "currency",
+    currency: "VND",
+  }).format(v);
+
 // Submit thêm sản phẩm
 const submitProduct = async () => {
   try {
     const uploadedUrls = await startUpload();
     productObj.value.images = uploadedUrls;
+    productObj.value.variants = variants.value;
 
     const result = await productService.create(productObj.value);
     if (result.status === 201 || result.status === 200) {
